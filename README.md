@@ -13,7 +13,7 @@ This warehouse is built using a modular, multi-layer architecture following dbt 
 `Raw (Seeds) ──> Staging (stg_) ──> Intermediate (int_) ──> Marts (dim_ / fct_)`
 
 ### Pipeline Lineage Graph
-![dbt Lineage Graph](target/run/my_portfolio_dbt_project/models/prod_lineage.png)  
+![dbt Lineage Graph](target/run/my_portfolio_dbt_project/Images/prod_lineage.png)  
 *(To view dynamically, run `dbt docs generate` and `dbt docs serve` locally).*
 
 ### Data Layer Breakdown:
