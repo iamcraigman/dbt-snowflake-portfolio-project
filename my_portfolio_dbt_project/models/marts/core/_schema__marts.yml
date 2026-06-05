@@ -1,4 +1,7 @@
-- name: dim_customers
+version: 2
+
+models:
+  - name: dim_customers
     description: "The primary customer dimension table. Combines cleaned profile details with their latest active subscription status and MRR."
     columns:
       - name: customer_id
