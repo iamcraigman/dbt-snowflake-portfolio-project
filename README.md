@@ -1,1 +1,1 @@
-# dbt-snowflake-portfolio-project
+# dbt-bigquery-portfolio-project
