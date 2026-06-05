@@ -1,0 +1,10 @@
+event_id,customer_id,event_timestamp,action,feature_used
+e_501,c_001,2025-01-10 08:45:00,login,dashboard
+e_502,c_001,2025-01-11 10:12:00,action,export_report
+e_503,c_002,2025-01-16 15:30:00,login,dashboard
+e_504,c_003,2025-02-02 09:00:00,login,dashboard
+e_505,c_001,2025-03-11 11:20:00,action,invite_user
+e_506,c_004,2025-02-19 14:05:00,action,api_call
+e_507,c_003,2025-03-15 16:22:00,login,dashboard
+e_508,c_005,2025-03-06 09:45:00,login,dashboard
+e_509,c_006,2025-03-23 13:50:00,action,export_report
