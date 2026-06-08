@@ -43,7 +43,8 @@ left join ref_pricing pr
     on p.plan_id = pr.plan_id
     and s.valid_from_date >= pr.valid_from
     and (s.valid_from_date < pr.valid_to or pr.valid_to is null)
-2. High-Performance Incremental Processing (merge strategy)
+```
+### 2. High-Performance Incremental Processing (merge strategy)
 To minimize BigQuery query computation costs, the main fact table (fct_subscriptions_historical) uses an Incremental Materialization strategy. Rather than rebuilding the table from scratch, dbt writes a target MERGE statement to update modified historical keys and append new records seamlessly based on unique keys:
 
 YAML
@@ -53,7 +54,7 @@ marts:
       +materialized: incremental
       +incremental_strategy: merge
       +unique_key: subscription_id
-3. Custom Jinja Macro Data Validation
+### 3. Custom Jinja Macro Data Validation
 Data quality is enforced programmatically in the intermediate layer. A custom Jinja macro (validate_email) wraps a complex regular expression evaluation to validate account strings and generate an execution flag before records are exposed to production dashboards:
 
 SQL
@@ -63,6 +64,8 @@ SQL
         else false
     end
 {% endmacro %}
+
+---
 
 ## 📂 Project Directory Structure
 
@@ -95,6 +98,8 @@ my_portfolio_dbt_project/
             ├── _core__models.yml                  # Strict schema enforcement and FK testing
             ├── dim_customers.sql                  # Wide Customer 360 table
             └── fct_subscriptions_historical.sql   # Optimized incremental billing table
+            
+---
 
 ## 🧪 Data Quality & Testing Contracts
 
@@ -121,4 +126,4 @@ Funnel Attribution: Correlating marketing acquisition channels directly against 
 
 ## 📊 Business Intelligence Dashboard
 
-![Business Intelligence Dashboard](Images/BI_Dashboard.pdf) 
+![Business Intelligence Dashboard]<embed src="Images/BI_Dashboard.pdf" type="application/pdf" width="100%" height="600px" />
