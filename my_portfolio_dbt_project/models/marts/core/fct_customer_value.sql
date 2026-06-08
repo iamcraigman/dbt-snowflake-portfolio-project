@@ -27,7 +27,7 @@ final as (
         c.signed_up_at,
         coalesce(p.plan_name, 'unsubscribed') as current_plan,
         c.current_status,
-        coalesce(c.clear_mrr_amount, 0.00) as current_mrr
+        c.current_mrr
     from customers c
 	left join plans p
 		on c.current_plan_id = p.plan_id
