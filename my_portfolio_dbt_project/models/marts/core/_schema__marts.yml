@@ -95,7 +95,7 @@ models:
         description: "Boolean flag identifying if this row represents a currently active subscription state."
 
   - name: dim_plans
-    description: "The primary subscription plan dimension table. Combines the raw plan catalog with historical
+    description: "The primary subscription plan dimension table. Combines the raw plan catalog with historical"
     columns:
       - name: plan_id
         data_type: string
