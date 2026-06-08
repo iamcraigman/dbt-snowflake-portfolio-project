@@ -47,7 +47,7 @@ left join ref_pricing pr
 ### 2. High-Performance Incremental Processing (merge strategy)
 To minimize BigQuery query computation costs, the main fact table (fct_subscriptions_historical) uses an Incremental Materialization strategy. Rather than rebuilding the table from scratch, dbt writes a target MERGE statement to update modified historical keys and append new records seamlessly based on unique keys:
 
-YAML
+```yaml
 marts:
   core:
     fct_subscriptions_historical:
@@ -56,20 +56,20 @@ marts:
       +unique_key: subscription_id
 ### 3. Custom Jinja Macro Data Validation
 Data quality is enforced programmatically in the intermediate layer. A custom Jinja macro (validate_email) wraps a complex regular expression evaluation to validate account strings and generate an execution flag before records are exposed to production dashboards:
-
-SQL
+```
+```SQL
 {% macro validate_email(column_name) %}
     case 
         when regexp_contains({{ column_name }}, r"^[a-zA-Z0-9_.+-]+@[a-zA-Z0-9-]+\.[a-zA-Z0-9-.]+$") then true
         else false
     end
 {% endmacro %}
-
+```
 ---
 
 ## 📂 Project Directory Structure
 
-Plaintext
+```plaintext
 my_portfolio_dbt_project/
 ├── dbt_project.yml              # Central project configuration, tracking materialization layers
 ├── macros/
@@ -98,7 +98,7 @@ my_portfolio_dbt_project/
             ├── _core__models.yml                  # Strict schema enforcement and FK testing
             ├── dim_customers.sql                  # Wide Customer 360 table
             └── fct_subscriptions_historical.sql   # Optimized incremental billing table
-            
+```            
 ---
 
 ## 🧪 Data Quality & Testing Contracts
@@ -115,7 +115,9 @@ To execute the verification matrix locally:
 
 Bash
 dbt build --no-partial-parse
-📈 Executive Deliverables (Business Metrics)
+
+## 📈 Executive Deliverables (Business Metrics)
+
 The final presentation mart layer exposes business-critical dimensions optimized for BI tools (e.g., Google Looker Studio), tracking core SaaS KPIs:
 
 Monthly Recurring Revenue (MRR): Calculated dynamically across account cohorts even through price changes.
@@ -124,6 +126,6 @@ Customer Lifecycle States: Tracking healthy, canceled, and churned accounts over
 
 Funnel Attribution: Correlating marketing acquisition channels directly against recurring billing values.
 
-## 📊 Business Intelligence Dashboard
+### 📊 Business Intelligence Dashboard
 
-![Business Intelligence Dashboard]<embed src="Images/BI_Dashboard.pdf" type="application/pdf" width="100%" height="600px" />
+![Business Intelligence Dashboard](Images/BI_Dashboard.png)
