@@ -57,7 +57,7 @@ marts:
 ### 3. Custom Jinja Macro Data Validation
 Data quality is enforced programmatically in the intermediate layer. A custom Jinja macro (validate_email) wraps a complex regular expression evaluation to validate account strings and generate an execution flag before records are exposed to production dashboards:
 ```
-```SQL
+```sql
 {% macro validate_email(column_name) %}
     case 
         when regexp_contains({{ column_name }}, r"^[a-zA-Z0-9_.+-]+@[a-zA-Z0-9-]+\.[a-zA-Z0-9-.]+$") then true
@@ -69,7 +69,7 @@ Data quality is enforced programmatically in the intermediate layer. A custom Ji
 
 ## 📂 Project Directory Structure
 
-```plaintext
+```text
 my_portfolio_dbt_project/
 ├── dbt_project.yml              # Central project configuration, tracking materialization layers
 ├── macros/
@@ -127,5 +127,4 @@ Customer Lifecycle States: Tracking healthy, canceled, and churned accounts over
 Funnel Attribution: Correlating marketing acquisition channels directly against recurring billing values.
 
 ### 📊 Business Intelligence Dashboard
-
-![Business Intelligence Dashboard](Images/BI_Dashboard.png)
+![BI Dashboard](Images/bi_dashboard.png)  
