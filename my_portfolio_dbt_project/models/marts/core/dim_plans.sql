@@ -1,5 +1,5 @@
 with source as (
-    select * from {{ source('subscription_platform', 'raw_plans') }}
+    select * from {{ ref('raw_plans') }} -- Directly referencing seed for lookup
 ),
 
 staged as (
