@@ -63,7 +63,9 @@ SQL
         else false
     end
 {% endmacro %}
-📂 Project Directory Structure
+
+## 📂 Project Directory Structure
+
 Plaintext
 my_portfolio_dbt_project/
 ├── dbt_project.yml              # Central project configuration, tracking materialization layers
@@ -93,7 +95,9 @@ my_portfolio_dbt_project/
             ├── _core__models.yml                  # Strict schema enforcement and FK testing
             ├── dim_customers.sql                  # Wide Customer 360 table
             └── fct_subscriptions_historical.sql   # Optimized incremental billing table
-🧪 Data Quality & Testing Contracts
+
+## 🧪 Data Quality & Testing Contracts
+
 Robust data contracts are enforced via strict schema documentation and tests inside _core__models.yml. The platform utilizes built-in and relational validation constraints:
 
 Primary Key Verification: unique and not_null assertions applied across all dimensional entities.
@@ -114,3 +118,7 @@ Monthly Recurring Revenue (MRR): Calculated dynamically across account cohorts e
 Customer Lifecycle States: Tracking healthy, canceled, and churned accounts over operational timelines.
 
 Funnel Attribution: Correlating marketing acquisition channels directly against recurring billing values.
+
+## 📊 Business Intelligence Dashboard
+
+![Business Intelligence Dashboard](Images/BI_Dashboard.pdf) 
