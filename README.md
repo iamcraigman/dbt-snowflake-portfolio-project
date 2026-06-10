@@ -70,34 +70,49 @@ Data quality is enforced programmatically in the intermediate layer. A custom Ji
 ## 📂 Project Directory Structure
 
 ```text
-my_portfolio_dbt_project/
-├── dbt_project.yml              # Central project configuration, tracking materialization layers
-├── macros/
-│   └── validate_email.sql       # Custom Jinja regex macro for string formatting checks
-├── seeds/
-│   ├── _seeds__models.yml       # Explicit seed data type contracts
-│   ├── raw_customers.csv        # Raw customer profiles
-│   ├── raw_marketing_channels.csv # Lookup: Marketing streams
-│   ├── raw_plan_pricing_history.csv # Lookup: SCD Type 2 price changes
-│   ├── raw_plans.csv            # Lookup: Core product tiers (Basic, Pro, Enterprise)
-│   ├── raw_subscriptions.csv    # Raw subscription history logs
-│   └── raw_usage_logs.csv       # Raw product usage and clickstream logs
-└── models/
-    ├── staging/
-    │   └── subscription_platform/
-    │       ├── src_subscription_platform.yml       # Source definitions & data quality tests
-    │       ├── stg_subscription_platform__customers.sql
-    │       ├── stg_subscription_platform__subscriptions.sql
-    │       └── stg_subscription_platform__usage_logs.sql
-    ├── intermediate/
-    │   ├── int_customer_subscription_states.sql   # Lifecycle logic & ranking
-    │   ├── int_customers_cleaned.sql              # Invokes custom email validation macro
-    │   └── int_subscriptions_enriched.sql         # Resolves pricing timestamps
-    └── marts/
-        └── core/
-            ├── _core__models.yml                  # Strict schema enforcement and FK testing
-            ├── dim_customers.sql                  # Wide Customer 360 table
-            └── fct_subscriptions_historical.sql   # Optimized incremental billing table
+dbt-bigquery-portfolio-project/
+    ├──  images/
+    │    ├──  bi_dashboard.png
+    │    ├──  prod_lineage.png
+    ├──  logs/
+    │    ├──  dbt.log
+    ├──  macros/
+    │    ├──  validate_email.sql
+    ├──  models/
+    │    ├──  intermediate/
+    │    │    ├──  int_customers_cleaned.sql
+    │    │    ├──  int_customer_conversions.sql
+    │    │    ├──  int_customer_subscription_states.sql
+    │    │    ├──  int_subscriptions_enriched.sql
+    │    │    ├──  _schema__intermediate.yml
+    │    ├──  marts/
+    │    │    ├──  core/
+    │    │    │    ├──  dim_customers.sql
+    │    │    │    ├──  dim_marketing_channels.sql
+    │    │    │    ├──  dim_plans.sql
+    │    │    │    ├──  fct_customer_value.sql
+    │    │    │    ├──  fct_subscriptions_historical.sql
+    │    │    │    ├──  _schema__marts.yml
+    │    ├──  staging/
+    │    │    ├──  subscription_platform/
+    │    │    │    ├──  stg_subscription_platform__customers.sql
+    │    │    │    ├──  stg_subscription_platform__subscriptions.sql
+    │    │    │    ├──  stg_subscription_platform__usage_logs.sql
+    │    │    │    ├──  _subscription_platform.yml
+    ├──  scripts/
+    │    ├──  mock_customer_data_creation.py
+    ├──  seeds/
+    │    ├──  raw_customers.csv
+    │    ├──  raw_marketing_channels.csv
+    │    ├──  raw_plans.csv
+    │    ├──  raw_plan_pricing_history.csv
+    │    ├──  raw_subscriptions.csv
+    │    ├──  raw_usage_logs.csv
+    │    ├──  _schema__models.yml
+    ├──  snapshots/
+    │    ├──  sub_historical_snapshot.sql
+    ├──  dbt_project.yml
+    ├──  README.md
 ```            
 ---
 
