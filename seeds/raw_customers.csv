@@ -1,0 +1,1001 @@
+customer_id,signup_at,email,country,marketing_channel
+c_128,2026-01-01 01:53:30,user_128@mockdata.org,UK,Google Ads
+c_042,2026-01-01 02:39:54,user_42@mockdata.org,DE,Organic Search
+c_829,2026-01-01 05:03:45,user_829@test.com,DE,Organic Search
+c_248,2026-01-01 05:21:51,user_248@mail.com,DE,Organic Search
+c_120,2026-01-01 07:52:54,user_120@test.com,UK,Direct
+c_071,2026-01-01 10:02:41,user_71@mail.com,UK,Direct
+c_815,2026-01-01 11:31:31,user_815@example.com,IT,Direct
+c_625,2026-01-01 14:03:11,user_625@test.com,FR,Organic Search
+c_097,2026-01-01 16:31:26,user_97@mockdata.org,CA,LinkedIn
+c_588,2026-01-02 00:08:50,user_588@test.com,DE,Direct
+c_717,2026-01-02 00:12:41,user_717@mockdata.org,DE,LinkedIn
+c_450,2026-01-02 00:28:20,user_450@example.com,US,LinkedIn
+c_054,2026-01-02 09:30:42,user_54@example.com,IT,Organic Search
+c_682,2026-01-02 18:36:08,user_682@test.com,FR,Direct
+c_831,2026-01-02 19:16:49,user_831@example.com,IT,LinkedIn
+c_308,2026-01-03 16:51:56,user_308@mockdata.org,FR,Organic Search
+c_599,2026-01-03 17:38:13,user_599@mockdata.org,UK,Blog Post
+c_068,2026-01-03 20:46:35,user_68@example.com,CA,Google Ads
+c_701,2026-01-04 00:58:19,user_701@test.com,FR,Google Ads
+c_671,2026-01-04 03:35:24,user_671@mockdata.org,FR,Blog Post
+c_854,2026-01-04 05:46:41,user_854@example.com,US,LinkedIn
+c_687,2026-01-04 07:53:25,user_687@mail.com,CA,Organic Search
+c_425,2026-01-04 12:57:37,user_425@mockdata.org,UK,Google Ads
+c_326,2026-01-05 03:31:58,user_326@example.com,UK,Google Ads
+c_294,2026-01-05 06:14:45,user_294@mail.com,UK,Organic Search
+c_979,2026-01-05 23:56:13,user_979@test.com,CA,LinkedIn
+c_742,2026-01-06 05:26:17,user_742@mail.com,IT,Google Ads
+c_521,2026-01-06 12:13:48,user_521@example.com,US,Blog Post
+c_280,2026-01-06 14:54:14,user_280@example.com,UK,Organic Search
+c_364,2026-01-06 14:55:53,user_364@test.com,UK,LinkedIn
+c_564,2026-01-07 03:07:45,user_564@example.com,CA,Organic Search
+c_628,2026-01-07 03:53:42,user_628@mockdata.org,DE,Google Ads
+c_004,2026-01-07 04:07:04,user_4@example.com,US,Google Ads
+c_023,2026-01-07 05:35:52,user_23@mockdata.org,DE,LinkedIn
+c_792,2026-01-07 08:22:12,user_792@mockdata.org,CA,Blog Post
+c_300,2026-01-07 11:29:23,user_300@mockdata.org,IT,Google Ads
+c_924,2026-01-07 17:28:41,user_924@test.com,IT,LinkedIn
+c_941,2026-01-08 08:55:25,user_941@example.com,US,Google Ads
+c_116,2026-01-08 10:17:29,user_116@example.com,FR,Direct
+c_448,2026-01-08 10:30:20,user_448@mockdata.org,DE,Google Ads
+c_081,2026-01-08 17:12:34,user_81@example.com,DE,Blog Post
+c_908,2026-01-08 19:57:01,user_908@test.com,UK,Google Ads
+c_102,2026-01-09 02:56:11,user_102@mockdata.org,UK,Organic Search
+c_484,2026-01-09 05:23:21,user_484@mockdata.org,FR,Direct
+c_919,2026-01-09 06:58:45,user_919@mail.com,US,Google Ads
+c_462,2026-01-09 10:53:06,user_462@mail.com,UK,LinkedIn
+c_751,2026-01-09 14:26:15,user_751@mail.com,UK,Direct
+c_984,2026-01-09 15:55:47,user_984@mockdata.org,DE,Direct
+c_626,2026-01-09 19:03:56,user_626@mail.com,UK,Organic Search
+c_552,2026-01-09 19:07:44,user_552@example.com,CA,LinkedIn
+c_015,2026-01-09 21:33:25,user_15@test.com,UK,Organic Search
+c_474,2026-01-10 06:46:58,user_474@mockdata.org,UK,Organic Search
+c_962,2026-01-10 08:23:00,user_962@mail.com,DE,Direct
+c_168,2026-01-11 02:44:11,user_168@mockdata.org,CA,Organic Search
+c_586,2026-01-11 04:37:34,user_586@example.com,DE,LinkedIn
+c_706,2026-01-11 10:14:36,user_706@example.com,DE,Google Ads
+c_513,2026-01-11 18:14:33,user_513@example.com,FR,Google Ads
+c_403,2026-01-11 21:46:51,user_403@mockdata.org,FR,Organic Search
+c_405,2026-01-12 01:07:36,user_405@mockdata.org,UK,Organic Search
+c_076,2026-01-12 02:24:34,user_76@example.com,FR,Direct
+c_623,2026-01-12 05:04:22,user_623@mail.com,IT,LinkedIn
+c_044,2026-01-12 05:57:03,user_44@test.com,FR,Organic Search
+c_222,2026-01-12 16:41:36,user_222@example.com,CA,Google Ads
+c_340,2026-01-12 19:28:00,user_340@mail.com,DE,Direct
+c_926,2026-01-12 20:10:59,user_926@example.com,UK,Direct
+c_986,2026-01-12 23:15:37,user_986@test.com,IT,Organic Search
+c_914,2026-01-12 23:23:57,user_914@test.com,CA,Google Ads
+c_052,2026-01-13 10:22:56,user_52@mockdata.org,US,Blog Post
+c_917,2026-01-13 12:27:41,user_917@test.com,IT,Direct
+c_417,2026-01-13 19:10:17,user_417@mockdata.org,US,Blog Post
+c_024,2026-01-13 20:27:40,user_24@test.com,FR,LinkedIn
+c_352,2026-01-14 00:51:50,user_352@example.com,US,Organic Search
+c_488,2026-01-14 01:19:48,user_488@test.com,IT,LinkedIn
+c_640,2026-01-14 01:35:54,user_640@example.com,FR,Organic Search
+c_461,2026-01-14 03:24:30,user_461@example.com,DE,Direct
+c_079,2026-01-14 04:43:14,user_79@test.com,DE,Organic Search
+c_837,2026-01-14 06:49:16,user_837@example.com,FR,Google Ads
+c_088,2026-01-14 08:35:26,user_88@test.com,UK,LinkedIn
+c_180,2026-01-14 09:21:42,user_180@mockdata.org,US,Direct
+c_121,2026-01-14 14:06:05,user_121@mockdata.org,FR,LinkedIn
+c_056,2026-01-14 18:13:09,user_56@test.com,UK,Direct
+c_228,2026-01-14 19:43:18,user_228@test.com,UK,Blog Post
+c_526,2026-01-15 04:04:44,user_526@example.com,CA,Direct
+c_342,2026-01-15 06:29:29,user_342@example.com,UK,Blog Post
+c_546,2026-01-15 06:40:58,user_546@mail.com,FR,Direct
+c_966,2026-01-15 07:30:38,user_966@example.com,UK,Organic Search
+c_680,2026-01-15 10:24:17,user_680@example.com,US,Direct
+c_699,2026-01-15 10:29:13,user_699@mockdata.org,FR,Blog Post
+c_898,2026-01-15 12:44:07,user_898@example.com,DE,Google Ads
+c_177,2026-01-15 18:10:09,user_177@test.com,US,LinkedIn
+c_707,2026-01-15 18:16:14,user_707@mockdata.org,FR,Blog Post
+c_729,2026-01-15 22:28:46,user_729@mockdata.org,UK,Google Ads
+c_616,2026-01-16 03:59:06,user_616@example.com,US,Blog Post
+c_479,2026-01-16 07:49:35,user_479@mail.com,FR,Google Ads
+c_991,2026-01-16 07:57:25,user_991@mail.com,IT,Organic Search
+c_284,2026-01-16 08:01:09,user_284@mail.com,FR,Google Ads
+c_481,2026-01-16 13:08:53,user_481@mockdata.org,IT,LinkedIn
+c_078,2026-01-16 13:20:47,user_78@test.com,US,Blog Post
+c_615,2026-01-16 21:32:35,user_615@mail.com,FR,LinkedIn
+c_980,2026-01-16 21:50:59,user_980@mail.com,US,LinkedIn
+c_714,2026-01-16 22:19:29,user_714@mockdata.org,CA,Direct
+c_858,2026-01-17 00:08:29,user_858@test.com,UK,Organic Search
+c_791,2026-01-17 01:16:22,user_791@example.com,CA,LinkedIn
+c_779,2026-01-17 10:58:22,user_779@test.com,UK,Organic Search
+c_371,2026-01-17 11:55:42,user_371@example.com,CA,Google Ads
+c_045,2026-01-17 15:10:26,user_45@mail.com,US,Blog Post
+c_987,2026-01-17 15:25:30,user_987@mockdata.org,FR,Direct
+c_757,2026-01-17 16:06:44,user_757@example.com,IT,Google Ads
+c_863,2026-01-17 17:46:50,user_863@mail.com,US,Direct
+c_884,2026-01-17 18:35:08,user_884@mail.com,US,LinkedIn
+c_187,2026-01-17 19:52:42,user_187@mockdata.org,DE,Google Ads
+c_997,2026-01-17 21:34:38,user_997@mail.com,FR,Direct
+c_719,2026-01-17 22:50:04,user_719@test.com,DE,Direct
+c_500,2026-01-18 01:08:04,user_500@mockdata.org,IT,LinkedIn
+c_834,2026-01-18 08:18:46,user_834@example.com,US,LinkedIn
+c_721,2026-01-18 09:39:14,user_721@mockdata.org,FR,Organic Search
+c_301,2026-01-18 12:03:07,user_301@mockdata.org,UK,Direct
+c_982,2026-01-18 16:43:43,user_982@mail.com,CA,LinkedIn
+c_909,2026-01-18 17:04:58,user_909@test.com,UK,Direct
+c_242,2026-01-18 17:13:13,user_242@mail.com,UK,Direct
+c_325,2026-01-18 19:13:44,user_325@test.com,IT,Blog Post
+c_096,2026-01-18 22:08:31,user_96@mail.com,UK,Organic Search
+c_010,2026-01-19 00:13:37,user_10@mail.com,US,LinkedIn
+c_197,2026-01-19 01:39:36,user_197@mockdata.org,CA,Direct
+c_255,2026-01-19 02:23:10,user_255@test.com,US,Direct
+c_825,2026-01-19 02:59:45,user_825@mockdata.org,UK,Organic Search
+c_424,2026-01-19 03:31:20,user_424@mail.com,FR,LinkedIn
+c_693,2026-01-19 03:44:38,user_693@mail.com,DE,Direct
+c_688,2026-01-19 16:51:18,user_688@test.com,CA,Google Ads
+c_760,2026-01-19 22:57:22,user_760@mail.com,IT,Direct
+c_447,2026-01-20 05:45:38,user_447@mockdata.org,CA,Google Ads
+c_271,2026-01-20 08:41:24,user_271@mail.com,US,Google Ads
+c_841,2026-01-20 12:12:04,user_841@test.com,US,Blog Post
+c_913,2026-01-20 18:55:21,user_913@test.com,US,Organic Search
+c_440,2026-01-20 22:06:10,user_440@example.com,UK,Organic Search
+c_411,2026-01-21 02:21:13,user_411@mockdata.org,IT,Organic Search
+c_892,2026-01-21 04:26:15,user_892@test.com,FR,Google Ads
+c_390,2026-01-21 13:21:28,user_390@test.com,DE,Blog Post
+c_752,2026-01-21 13:44:14,user_752@example.com,US,LinkedIn
+c_531,2026-01-21 14:51:10,user_531@mockdata.org,CA,Direct
+c_175,2026-01-21 23:46:36,user_175@example.com,UK,Blog Post
+c_311,2026-01-22 00:55:45,user_311@test.com,DE,Organic Search
+c_030,2026-01-22 07:00:07,user_30@test.com,IT,Google Ads
+c_376,2026-01-22 12:47:01,user_376@mockdata.org,IT,Blog Post
+c_036,2026-01-22 15:52:14,user_36@mockdata.org,DE,Google Ads
+c_043,2026-01-22 17:20:28,user_43@mockdata.org,UK,Google Ads
+c_795,2026-01-22 23:36:05,user_795@example.com,UK,Blog Post
+c_774,2026-01-23 03:04:07,user_774@mockdata.org,IT,Direct
+c_305,2026-01-23 08:43:47,user_305@mail.com,US,Google Ads
+c_092,2026-01-23 09:56:11,user_92@example.com,IT,Blog Post
+c_315,2026-01-23 15:44:57,user_315@test.com,US,Organic Search
+c_256,2026-01-23 19:25:54,user_256@test.com,DE,LinkedIn
+c_218,2026-01-24 00:01:27,user_218@mail.com,FR,Blog Post
+c_548,2026-01-24 01:41:58,user_548@test.com,US,Direct
+c_881,2026-01-24 04:26:55,user_881@example.com,CA,Google Ads
+c_865,2026-01-24 04:38:41,user_865@example.com,IT,Google Ads
+c_832,2026-01-24 10:00:27,user_832@mail.com,IT,Google Ads
+c_203,2026-01-24 10:17:49,user_203@test.com,UK,Organic Search
+c_141,2026-01-24 13:34:19,user_141@mail.com,CA,Direct
+c_532,2026-01-24 18:59:36,user_532@mockdata.org,DE,Google Ads
+c_509,2026-01-25 08:03:54,user_509@mockdata.org,IT,Organic Search
+c_327,2026-01-25 10:50:52,user_327@test.com,US,Blog Post
+c_994,2026-01-25 12:04:09,user_994@example.com,DE,Organic Search
+c_270,2026-01-25 12:21:00,user_270@mockdata.org,US,Direct
+c_209,2026-01-25 13:55:09,user_209@mockdata.org,US,Organic Search
+c_868,2026-01-25 15:32:22,user_868@mockdata.org,IT,Organic Search
+c_953,2026-01-25 17:29:11,user_953@test.com,IT,Organic Search
+c_918,2026-01-26 00:12:43,user_918@example.com,UK,Organic Search
+c_506,2026-01-26 04:46:39,user_506@example.com,US,LinkedIn
+c_354,2026-01-26 06:22:55,user_354@example.com,FR,Blog Post
+c_332,2026-01-26 14:14:51,user_332@example.com,UK,Google Ads
+c_830,2026-01-26 18:25:33,user_830@test.com,FR,Direct
+c_632,2026-01-26 19:46:38,user_632@mockdata.org,US,Google Ads
+c_542,2026-01-27 00:10:55,user_542@mockdata.org,IT,LinkedIn
+c_807,2026-01-27 07:53:24,user_807@mail.com,US,LinkedIn
+c_163,2026-01-27 08:24:19,user_163@mail.com,CA,Organic Search
+c_902,2026-01-27 10:19:37,user_902@example.com,CA,Organic Search
+c_735,2026-01-27 10:23:09,user_735@mockdata.org,UK,Blog Post
+c_927,2026-01-27 15:33:58,user_927@mail.com,CA,Blog Post
+c_681,2026-01-27 16:45:25,user_681@test.com,US,Google Ads
+c_029,2026-01-27 20:40:21,user_29@mail.com,US,Organic Search
+c_504,2026-01-27 23:12:47,user_504@test.com,DE,Organic Search
+c_803,2026-01-28 00:52:55,user_803@test.com,CA,Organic Search
+c_065,2026-01-28 05:17:48,user_65@mail.com,CA,LinkedIn
+c_533,2026-01-28 08:32:14,user_533@example.com,US,LinkedIn
+c_026,2026-01-28 17:49:47,user_26@mockdata.org,CA,Google Ads
+c_366,2026-01-28 19:36:01,user_366@mail.com,US,Google Ads
+c_646,2026-01-28 19:38:31,user_646@test.com,DE,LinkedIn
+c_259,2026-01-29 02:04:49,user_259@mail.com,CA,Blog Post
+c_282,2026-01-29 06:24:15,user_282@test.com,FR,Direct
+c_727,2026-01-29 08:06:20,user_727@example.com,CA,Direct
+c_396,2026-01-29 10:28:46,user_396@mockdata.org,CA,Google Ads
+c_134,2026-01-29 14:43:09,user_134@example.com,US,Google Ads
+c_343,2026-01-29 19:17:08,user_343@example.com,CA,LinkedIn
+c_618,2026-01-30 02:21:45,user_618@test.com,UK,Blog Post
+c_401,2026-01-30 07:30:44,user_401@mail.com,US,Direct
+c_612,2026-01-30 17:53:47,user_612@mail.com,IT,Blog Post
+c_431,2026-01-30 22:52:11,user_431@test.com,CA,Blog Post
+c_860,2026-01-31 04:06:35,user_860@mockdata.org,DE,Blog Post
+c_093,2026-01-31 04:26:23,user_93@mockdata.org,UK,Blog Post
+c_009,2026-01-31 04:35:13,user_9@test.com,UK,Organic Search
+c_972,2026-01-31 12:09:24,user_972@example.com,US,LinkedIn
+c_907,2026-01-31 14:32:27,user_907@mockdata.org,IT,Blog Post
+c_089,2026-01-31 15:09:12,user_89@mail.com,FR,LinkedIn
+c_822,2026-01-31 16:15:23,user_822@mail.com,DE,Organic Search
+c_144,2026-01-31 21:43:46,user_144@mail.com,DE,LinkedIn
+c_934,2026-01-31 23:54:19,user_934@example.com,CA,Google Ads
+c_244,2026-02-01 05:29:53,user_244@mockdata.org,DE,Direct
+c_098,2026-02-01 09:01:35,user_98@mail.com,FR,Direct
+c_703,2026-02-01 13:04:22,user_703@test.com,FR,Direct
+c_903,2026-02-01 22:02:34,user_903@mail.com,DE,LinkedIn
+c_432,2026-02-02 03:28:06,user_432@mail.com,US,Direct
+c_232,2026-02-02 05:15:22,user_232@mockdata.org,FR,Blog Post
+c_963,2026-02-02 07:11:35,user_963@mail.com,DE,Direct
+c_483,2026-02-02 08:37:15,user_483@mail.com,UK,Direct
+c_393,2026-02-02 15:33:18,user_393@example.com,FR,Organic Search
+c_725,2026-02-02 22:18:49,user_725@mail.com,CA,Google Ads
+c_778,2026-02-03 12:02:11,user_778@mockdata.org,FR,Blog Post
+c_922,2026-02-03 13:20:23,user_922@mockdata.org,CA,Google Ads
+c_993,2026-02-03 13:40:27,user_993@test.com,CA,Google Ads
+c_224,2026-02-03 18:01:47,user_224@example.com,CA,Organic Search
+c_951,2026-02-03 19:50:35,user_951@mockdata.org,CA,Blog Post
+c_952,2026-02-04 01:11:52,user_952@mail.com,UK,LinkedIn
+c_302,2026-02-04 02:32:31,user_302@test.com,CA,Blog Post
+c_592,2026-02-04 03:14:05,user_592@example.com,DE,Direct
+c_106,2026-02-04 09:07:25,user_106@mail.com,US,Google Ads
+c_398,2026-02-04 09:33:38,user_398@mail.com,DE,Blog Post
+c_737,2026-02-04 11:50:58,user_737@mail.com,UK,LinkedIn
+c_931,2026-02-04 22:00:09,user_931@example.com,UK,Blog Post
+c_512,2026-02-05 08:00:34,user_512@test.com,DE,Blog Post
+c_955,2026-02-05 08:33:44,user_955@mockdata.org,FR,Google Ads
+c_603,2026-02-05 21:08:34,user_603@test.com,DE,LinkedIn
+c_593,2026-02-06 04:16:30,user_593@mockdata.org,US,Organic Search
+c_460,2026-02-06 08:56:45,user_460@example.com,FR,LinkedIn
+c_249,2026-02-06 10:11:52,user_249@mockdata.org,FR,Direct
+c_638,2026-02-06 14:22:57,user_638@example.com,US,Direct
+c_266,2026-02-06 15:11:01,user_266@test.com,FR,Direct
+c_663,2026-02-06 21:34:28,user_663@example.com,IT,Direct
+c_119,2026-02-06 21:49:52,user_119@mockdata.org,US,Direct
+c_064,2026-02-07 04:52:28,user_64@test.com,FR,Direct
+c_573,2026-02-07 08:00:57,user_573@test.com,UK,Blog Post
+c_545,2026-02-07 19:09:34,user_545@mockdata.org,FR,LinkedIn
+c_788,2026-02-07 21:21:52,user_788@mail.com,FR,Blog Post
+c_731,2026-02-07 23:19:14,user_731@mail.com,US,Google Ads
+c_673,2026-02-08 02:19:11,user_673@mockdata.org,CA,Direct
+c_769,2026-02-08 07:35:54,user_769@mail.com,FR,Direct
+c_291,2026-02-08 16:25:06,user_291@mail.com,DE,Organic Search
+c_170,2026-02-08 17:05:17,user_170@example.com,FR,Google Ads
+c_110,2026-02-08 18:04:36,user_110@mail.com,UK,LinkedIn
+c_498,2026-02-08 20:53:55,user_498@example.com,CA,Organic Search
+c_885,2026-02-08 23:11:43,user_885@mockdata.org,FR,LinkedIn
+c_944,2026-02-09 02:53:31,user_944@test.com,UK,Google Ads
+c_470,2026-02-09 03:28:55,user_470@example.com,CA,Organic Search
+c_973,2026-02-09 21:56:04,user_973@test.com,DE,Blog Post
+c_771,2026-02-09 23:01:30,user_771@mockdata.org,IT,Organic Search
+c_759,2026-02-10 04:04:17,user_759@mail.com,UK,Direct
+c_328,2026-02-10 05:25:23,user_328@test.com,CA,LinkedIn
+c_094,2026-02-10 21:36:19,user_94@mockdata.org,CA,LinkedIn
+c_191,2026-02-11 04:33:00,user_191@mockdata.org,UK,LinkedIn
+c_025,2026-02-11 06:54:41,user_25@mail.com,DE,Direct
+c_087,2026-02-11 09:22:15,user_87@mockdata.org,CA,LinkedIn
+c_582,2026-02-11 13:15:02,user_582@test.com,FR,LinkedIn
+c_426,2026-02-11 14:12:36,user_426@mockdata.org,DE,Google Ads
+c_057,2026-02-11 14:24:57,user_57@test.com,IT,Blog Post
+c_497,2026-02-11 15:58:14,user_497@mockdata.org,IT,Direct
+c_368,2026-02-11 18:35:30,user_368@mail.com,DE,Direct
+c_375,2026-02-11 20:37:27,user_375@example.com,UK,Direct
+c_451,2026-02-11 21:01:26,user_451@test.com,FR,Blog Post
+c_855,2026-02-11 21:26:05,user_855@example.com,US,Direct
+c_643,2026-02-12 04:32:52,user_643@example.com,CA,Blog Post
+c_321,2026-02-12 04:33:00,user_321@mail.com,DE,Google Ads
+c_139,2026-02-12 11:52:25,user_139@test.com,IT,Blog Post
+c_297,2026-02-12 12:38:06,user_297@test.com,FR,LinkedIn
+c_932,2026-02-12 12:42:29,user_932@example.com,UK,Organic Search
+c_022,2026-02-12 15:28:51,user_22@mockdata.org,US,Google Ads
+c_611,2026-02-12 21:13:55,user_611@test.com,CA,Direct
+c_338,2026-02-13 00:29:48,user_338@example.com,IT,Blog Post
+c_753,2026-02-13 02:36:00,user_753@test.com,DE,LinkedIn
+c_443,2026-02-13 02:46:19,user_443@mail.com,UK,Organic Search
+c_360,2026-02-13 13:03:24,user_360@example.com,UK,Blog Post
+c_362,2026-02-13 21:58:39,user_362@mail.com,FR,Blog Post
+c_427,2026-02-13 23:46:01,user_427@test.com,CA,Organic Search
+c_111,2026-02-14 04:40:18,user_111@test.com,US,Google Ads
+c_710,2026-02-14 07:12:07,user_710@mockdata.org,FR,Direct
+c_875,2026-02-14 08:26:30,user_875@example.com,US,Organic Search
+c_348,2026-02-14 08:51:26,user_348@mail.com,UK,Direct
+c_238,2026-02-14 10:51:54,user_238@example.com,IT,LinkedIn
+c_055,2026-02-14 10:56:45,user_55@example.com,US,LinkedIn
+c_150,2026-02-14 21:45:23,user_150@mail.com,IT,Google Ads
+c_895,2026-02-14 22:44:25,user_895@mail.com,IT,LinkedIn
+c_591,2026-02-15 02:13:28,user_591@example.com,CA,Direct
+c_005,2026-02-15 04:16:42,user_5@example.com,FR,Google Ads
+c_016,2026-02-15 04:53:02,user_16@example.com,DE,LinkedIn
+c_267,2026-02-15 08:28:47,user_267@mail.com,US,LinkedIn
+c_148,2026-02-15 12:49:09,user_148@mockdata.org,UK,LinkedIn
+c_277,2026-02-15 14:06:31,user_277@mockdata.org,CA,Organic Search
+c_317,2026-02-15 14:14:50,user_317@test.com,DE,Direct
+c_605,2026-02-15 17:36:30,user_605@mail.com,UK,LinkedIn
+c_937,2026-02-15 22:24:29,user_937@mockdata.org,IT,LinkedIn
+c_899,2026-02-15 23:26:10,user_899@mockdata.org,UK,LinkedIn
+c_292,2026-02-16 01:27:31,user_292@mail.com,FR,LinkedIn
+c_453,2026-02-16 03:29:01,user_453@mockdata.org,US,Organic Search
+c_454,2026-02-16 07:12:31,user_454@mail.com,IT,Blog Post
+c_171,2026-02-16 07:42:00,user_171@test.com,DE,Organic Search
+c_780,2026-02-16 07:49:46,user_780@mockdata.org,US,Google Ads
+c_435,2026-02-16 10:36:21,user_435@mockdata.org,DE,Google Ads
+c_745,2026-02-16 23:54:01,user_745@mockdata.org,IT,Google Ads
+c_664,2026-02-17 02:33:58,user_664@test.com,DE,Google Ads
+c_876,2026-02-17 11:41:32,user_876@example.com,DE,LinkedIn
+c_002,2026-02-17 13:16:43,user_2@test.com,CA,Organic Search
+c_810,2026-02-18 01:41:19,user_810@mail.com,DE,Google Ads
+c_604,2026-02-18 03:58:59,user_604@example.com,UK,Direct
+c_879,2026-02-18 04:59:25,user_879@mail.com,IT,LinkedIn
+c_928,2026-02-18 09:06:45,user_928@example.com,DE,LinkedIn
+c_494,2026-02-18 11:16:28,user_494@example.com,US,Google Ads
+c_809,2026-02-18 11:34:49,user_809@test.com,IT,LinkedIn
+c_331,2026-02-18 16:07:59,user_331@test.com,US,Organic Search
+c_214,2026-02-19 00:38:04,user_214@mail.com,US,Organic Search
+c_657,2026-02-19 12:21:57,user_657@test.com,UK,Organic Search
+c_874,2026-02-19 12:55:37,user_874@example.com,FR,Organic Search
+c_164,2026-02-20 12:24:58,user_164@mail.com,UK,Google Ads
+c_911,2026-02-20 12:27:54,user_911@test.com,US,Direct
+c_115,2026-02-20 17:21:03,user_115@test.com,FR,LinkedIn
+c_496,2026-02-20 19:58:03,user_496@mockdata.org,IT,Direct
+c_985,2026-02-21 03:32:12,user_985@test.com,UK,Blog Post
+c_223,2026-02-21 09:20:25,user_223@example.com,CA,Google Ads
+c_522,2026-02-21 09:23:09,user_522@test.com,FR,Direct
+c_273,2026-02-21 11:05:44,user_273@mockdata.org,FR,Direct
+c_960,2026-02-21 11:58:46,user_960@test.com,CA,Organic Search
+c_334,2026-02-21 12:42:08,user_334@example.com,CA,Direct
+c_561,2026-02-21 13:27:41,user_561@test.com,IT,Organic Search
+c_231,2026-02-21 13:56:13,user_231@test.com,US,Organic Search
+c_935,2026-02-21 18:06:21,user_935@example.com,CA,Blog Post
+c_478,2026-02-21 19:00:30,user_478@example.com,IT,Direct
+c_108,2026-02-21 19:24:17,user_108@test.com,IT,Organic Search
+c_251,2026-02-21 20:34:20,user_251@test.com,UK,Direct
+c_262,2026-02-21 21:06:53,user_262@example.com,UK,LinkedIn
+c_726,2026-02-22 05:15:11,user_726@mockdata.org,UK,Direct
+c_202,2026-02-22 14:33:43,user_202@mockdata.org,UK,Google Ads
+c_880,2026-02-22 16:09:13,user_880@example.com,FR,LinkedIn
+c_901,2026-02-22 19:24:22,user_901@test.com,US,Google Ads
+c_870,2026-02-22 19:31:17,user_870@example.com,UK,Blog Post
+c_373,2026-02-22 20:05:28,user_373@mail.com,IT,Direct
+c_235,2026-02-22 20:45:33,user_235@mail.com,DE,Organic Search
+c_158,2026-02-22 23:58:14,user_158@mail.com,DE,Organic Search
+c_485,2026-02-23 07:31:14,user_485@example.com,US,Direct
+c_147,2026-02-23 07:43:00,user_147@mail.com,US,LinkedIn
+c_923,2026-02-23 09:30:28,user_923@mockdata.org,DE,Google Ads
+c_647,2026-02-23 10:18:36,user_647@example.com,FR,Blog Post
+c_324,2026-02-23 13:42:02,user_324@test.com,US,Direct
+c_728,2026-02-23 14:04:31,user_728@mail.com,UK,Direct
+c_330,2026-02-23 20:11:39,user_330@test.com,CA,Blog Post
+c_166,2026-02-24 00:46:11,user_166@mail.com,UK,Organic Search
+c_192,2026-02-24 07:18:10,user_192@mockdata.org,FR,Organic Search
+c_540,2026-02-24 15:12:56,user_540@mail.com,FR,Direct
+c_415,2026-02-24 22:22:46,user_415@mail.com,DE,LinkedIn
+c_132,2026-02-25 02:32:25,user_132@mockdata.org,US,Google Ads
+c_516,2026-02-25 03:45:39,user_516@example.com,UK,Google Ads
+c_434,2026-02-25 07:51:37,user_434@mail.com,CA,Blog Post
+c_072,2026-02-25 09:21:27,user_72@mail.com,IT,Blog Post
+c_590,2026-02-25 10:07:54,user_590@example.com,US,Blog Post
+c_541,2026-02-25 11:41:02,user_541@example.com,US,Direct
+c_296,2026-02-25 13:45:41,user_296@test.com,FR,LinkedIn
+c_580,2026-02-25 20:27:16,user_580@example.com,UK,Direct
+c_227,2026-02-25 22:39:57,user_227@mockdata.org,IT,Direct
+c_245,2026-02-25 23:11:32,user_245@mail.com,FR,Organic Search
+c_233,2026-02-26 01:01:22,user_233@mail.com,US,Direct
+c_793,2026-02-26 01:18:04,user_793@test.com,DE,Blog Post
+c_644,2026-02-26 04:03:55,user_644@test.com,IT,Blog Post
+c_806,2026-02-26 04:23:26,user_806@mockdata.org,FR,Organic Search
+c_380,2026-02-26 04:55:17,user_380@mockdata.org,US,Organic Search
+c_387,2026-02-26 05:14:19,user_387@example.com,DE,Organic Search
+c_524,2026-02-26 05:58:03,user_524@mockdata.org,DE,Google Ads
+c_502,2026-02-26 09:11:10,user_502@mockdata.org,CA,Google Ads
+c_458,2026-02-26 13:25:33,user_458@mail.com,US,Blog Post
+c_723,2026-02-26 16:06:26,user_723@mail.com,DE,Organic Search
+c_281,2026-02-26 23:11:34,user_281@mockdata.org,UK,Direct
+c_978,2026-02-27 04:41:59,user_978@mail.com,CA,Organic Search
+c_713,2026-02-27 08:34:05,user_713@test.com,IT,Organic Search
+c_848,2026-02-27 09:19:32,user_848@example.com,CA,Direct
+c_428,2026-02-27 10:29:27,user_428@example.com,FR,Blog Post
+c_207,2026-02-27 12:36:30,user_207@test.com,UK,Google Ads
+c_074,2026-02-27 14:45:31,user_74@test.com,US,Blog Post
+c_975,2026-02-27 17:59:14,user_975@test.com,US,Organic Search
+c_635,2026-02-27 22:28:20,user_635@mail.com,IT,Blog Post
+c_594,2026-02-27 22:36:30,user_594@example.com,UK,LinkedIn
+c_574,2026-02-27 23:06:24,user_574@test.com,UK,LinkedIn
+c_091,2026-02-28 03:12:21,user_91@example.com,CA,LinkedIn
+c_558,2026-02-28 05:07:31,user_558@mail.com,US,LinkedIn
+c_652,2026-02-28 05:34:54,user_652@mail.com,CA,Blog Post
+c_692,2026-02-28 05:58:59,user_692@example.com,IT,Organic Search
+c_379,2026-02-28 12:42:57,user_379@test.com,CA,LinkedIn
+c_339,2026-02-28 13:41:57,user_339@mail.com,IT,Organic Search
+c_606,2026-02-28 15:10:10,user_606@example.com,UK,LinkedIn
+c_208,2026-02-28 16:40:08,user_208@example.com,IT,Blog Post
+c_514,2026-03-01 01:19:23,user_514@test.com,CA,LinkedIn
+c_316,2026-03-01 02:26:30,user_316@mail.com,US,Organic Search
+c_732,2026-03-01 03:48:33,user_732@example.com,DE,LinkedIn
+c_482,2026-03-01 12:22:27,user_482@mail.com,FR,Direct
+c_560,2026-03-01 17:52:57,user_560@example.com,FR,Direct
+c_859,2026-03-02 04:16:14,user_859@example.com,FR,Google Ads
+c_404,2026-03-02 06:36:19,user_404@mail.com,DE,Organic Search
+c_254,2026-03-02 08:12:02,user_254@example.com,FR,Direct
+c_358,2026-03-02 16:07:02,user_358@mockdata.org,US,Blog Post
+c_350,2026-03-02 16:34:51,user_350@mail.com,UK,LinkedIn
+c_843,2026-03-03 01:41:35,user_843@test.com,CA,LinkedIn
+c_786,2026-03-03 02:02:56,user_786@mail.com,FR,Organic Search
+c_471,2026-03-03 06:46:59,user_471@mockdata.org,FR,Direct
+c_716,2026-03-03 11:49:39,user_716@mockdata.org,US,Organic Search
+c_576,2026-03-03 13:31:01,user_576@mail.com,UK,Blog Post
+c_555,2026-03-03 20:27:27,user_555@test.com,DE,Blog Post
+c_967,2026-03-03 21:19:42,user_967@mockdata.org,US,Organic Search
+c_645,2026-03-03 22:11:56,user_645@mockdata.org,CA,LinkedIn
+c_761,2026-03-03 22:13:33,user_761@example.com,UK,Organic Search
+c_958,2026-03-04 01:03:53,user_958@test.com,IT,Organic Search
+c_949,2026-03-04 15:26:23,user_949@test.com,CA,Direct
+c_247,2026-03-04 18:33:54,user_247@example.com,DE,Blog Post
+c_945,2026-03-04 20:01:59,user_945@example.com,US,Google Ads
+c_388,2026-03-05 01:31:45,user_388@test.com,FR,Direct
+c_739,2026-03-05 06:44:23,user_739@mail.com,UK,Direct
+c_124,2026-03-05 08:07:21,user_124@mail.com,IT,LinkedIn
+c_535,2026-03-05 13:57:41,user_535@mockdata.org,CA,Google Ads
+c_602,2026-03-05 16:14:56,user_602@example.com,DE,Organic Search
+c_597,2026-03-06 05:05:58,user_597@test.com,IT,Direct
+c_201,2026-03-06 05:35:57,user_201@mockdata.org,IT,Direct
+c_957,2026-03-06 07:21:24,user_957@example.com,CA,LinkedIn
+c_559,2026-03-06 07:41:18,user_559@example.com,DE,Blog Post
+c_662,2026-03-06 15:43:34,user_662@mockdata.org,US,Google Ads
+c_243,2026-03-06 17:19:46,user_243@mockdata.org,IT,Organic Search
+c_734,2026-03-06 23:59:01,user_734@mail.com,IT,Blog Post
+c_819,2026-03-07 14:03:11,user_819@test.com,FR,Direct
+c_970,2026-03-07 14:57:49,user_970@mail.com,IT,Organic Search
+c_365,2026-03-07 23:41:51,user_365@mockdata.org,US,Google Ads
+c_528,2026-03-08 01:24:44,user_528@test.com,UK,LinkedIn
+c_369,2026-03-08 04:41:25,user_369@test.com,UK,LinkedIn
+c_968,2026-03-08 08:56:30,user_968@test.com,DE,Google Ads
+c_820,2026-03-08 17:56:33,user_820@example.com,US,Organic Search
+c_200,2026-03-08 18:01:32,user_200@mail.com,IT,Blog Post
+c_011,2026-03-08 18:56:59,user_11@mockdata.org,US,Direct
+c_511,2026-03-08 21:33:18,user_511@test.com,FR,Blog Post
+c_464,2026-03-08 22:53:45,user_464@test.com,IT,Organic Search
+c_289,2026-03-09 02:27:09,user_289@mockdata.org,IT,Direct
+c_117,2026-03-09 03:01:07,user_117@mockdata.org,DE,Blog Post
+c_890,2026-03-09 06:27:05,user_890@example.com,UK,Organic Search
+c_867,2026-03-09 07:45:46,user_867@mockdata.org,CA,LinkedIn
+c_179,2026-03-09 10:05:12,user_179@mail.com,IT,LinkedIn
+c_777,2026-03-09 13:26:46,user_777@mockdata.org,DE,Blog Post
+c_758,2026-03-09 15:19:45,user_758@mockdata.org,UK,Direct
+c_961,2026-03-10 01:21:38,user_961@mockdata.org,US,Organic Search
+c_964,2026-03-10 04:51:21,user_964@mail.com,US,Direct
+c_466,2026-03-10 09:49:57,user_466@mockdata.org,IT,Google Ads
+c_459,2026-03-10 12:14:30,user_459@test.com,FR,Direct
+c_018,2026-03-10 23:40:53,user_18@test.com,IT,LinkedIn
+c_103,2026-03-11 11:30:42,user_103@test.com,IT,Google Ads
+c_787,2026-03-11 17:14:37,user_787@example.com,DE,Google Ads
+c_749,2026-03-11 19:31:43,user_749@example.com,US,Google Ads
+c_667,2026-03-11 20:03:55,user_667@mail.com,DE,Organic Search
+c_977,2026-03-12 01:35:04,user_977@example.com,DE,Organic Search
+c_505,2026-03-12 01:53:58,user_505@mockdata.org,DE,Blog Post
+c_851,2026-03-12 02:50:22,user_851@mockdata.org,CA,Direct
+c_503,2026-03-12 04:40:32,user_503@test.com,US,Google Ads
+c_014,2026-03-12 05:20:28,user_14@test.com,IT,Organic Search
+c_489,2026-03-12 07:44:38,user_489@mail.com,FR,Organic Search
+c_322,2026-03-12 10:14:22,user_322@example.com,IT,LinkedIn
+c_486,2026-03-12 13:09:09,user_486@test.com,US,Google Ads
+c_433,2026-03-12 17:45:29,user_433@test.com,DE,Blog Post
+c_947,2026-03-12 20:30:35,user_947@example.com,UK,Direct
+c_740,2026-03-12 21:05:44,user_740@example.com,FR,Google Ads
+c_773,2026-03-13 00:43:08,user_773@mockdata.org,CA,Direct
+c_303,2026-03-13 01:01:10,user_303@mockdata.org,CA,LinkedIn
+c_796,2026-03-13 05:41:59,user_796@example.com,IT,Direct
+c_361,2026-03-13 08:57:31,user_361@example.com,UK,Blog Post
+c_835,2026-03-13 08:57:41,user_835@mockdata.org,CA,Direct
+c_436,2026-03-13 10:15:47,user_436@mail.com,DE,LinkedIn
+c_475,2026-03-13 11:05:37,user_475@mail.com,DE,Direct
+c_199,2026-03-13 15:45:35,user_199@mail.com,FR,Blog Post
+c_101,2026-03-13 16:40:16,user_101@test.com,DE,Google Ads
+c_669,2026-03-13 23:36:36,user_669@mockdata.org,DE,Organic Search
+c_491,2026-03-14 00:49:11,user_491@mockdata.org,DE,Organic Search
+c_318,2026-03-14 01:02:20,user_318@mail.com,FR,Google Ads
+c_826,2026-03-14 04:55:03,user_826@test.com,US,Direct
+c_549,2026-03-14 11:13:49,user_549@mockdata.org,FR,LinkedIn
+c_683,2026-03-14 11:14:28,user_683@example.com,FR,Blog Post
+c_781,2026-03-14 11:43:56,user_781@test.com,FR,Direct
+c_613,2026-03-14 13:13:04,user_613@mail.com,IT,Blog Post
+c_445,2026-03-14 14:47:12,user_445@test.com,DE,Organic Search
+c_351,2026-03-14 16:22:09,user_351@test.com,IT,Direct
+c_630,2026-03-14 17:06:51,user_630@mail.com,DE,Direct
+c_446,2026-03-14 19:13:10,user_446@test.com,US,LinkedIn
+c_812,2026-03-14 20:25:47,user_812@mail.com,US,Organic Search
+c_631,2026-03-14 22:38:06,user_631@example.com,IT,Blog Post
+c_423,2026-03-15 03:27:10,user_423@mockdata.org,CA,Blog Post
+c_660,2026-03-15 05:43:48,user_660@example.com,US,Google Ads
+c_021,2026-03-15 16:23:25,user_21@mockdata.org,IT,Blog Post
+c_275,2026-03-15 18:58:19,user_275@mockdata.org,IT,Direct
+c_382,2026-03-15 19:53:42,user_382@test.com,FR,Blog Post
+c_983,2026-03-16 01:39:48,user_983@mockdata.org,CA,Direct
+c_437,2026-03-16 03:39:16,user_437@mail.com,CA,Google Ads
+c_109,2026-03-16 06:46:25,user_109@example.com,DE,Google Ads
+c_877,2026-03-16 08:48:49,user_877@test.com,CA,Organic Search
+c_534,2026-03-16 14:16:04,user_534@mail.com,CA,Google Ads
+c_032,2026-03-16 17:08:44,user_32@mail.com,FR,Direct
+c_849,2026-03-16 22:21:25,user_849@example.com,CA,Direct
+c_269,2026-03-16 23:15:26,user_269@test.com,DE,Organic Search
+c_476,2026-03-17 01:53:42,user_476@mockdata.org,CA,Direct
+c_989,2026-03-17 04:02:42,user_989@mail.com,FR,Direct
+c_936,2026-03-17 10:10:48,user_936@mockdata.org,CA,Google Ads
+c_770,2026-03-17 12:06:21,user_770@example.com,IT,Google Ads
+c_159,2026-03-17 12:12:21,user_159@mockdata.org,IT,Direct
+c_154,2026-03-17 15:05:36,user_154@example.com,FR,Direct
+c_754,2026-03-17 22:49:02,user_754@mail.com,IT,Blog Post
+c_976,2026-03-18 07:03:25,user_976@mail.com,CA,Organic Search
+c_900,2026-03-18 07:17:31,user_900@mockdata.org,UK,Direct
+c_378,2026-03-18 18:03:39,user_378@example.com,US,Google Ads
+c_768,2026-03-18 19:32:51,user_768@example.com,IT,Blog Post
+c_084,2026-03-18 20:29:44,user_84@test.com,IT,LinkedIn
+c_690,2026-03-19 01:40:17,user_690@example.com,UK,Direct
+c_981,2026-03-19 04:19:55,user_981@mail.com,DE,LinkedIn
+c_817,2026-03-19 05:29:25,user_817@test.com,DE,Google Ads
+c_493,2026-03-19 06:58:23,user_493@mockdata.org,IT,LinkedIn
+c_507,2026-03-19 07:33:35,user_507@mail.com,FR,Direct
+c_112,2026-03-19 08:59:09,user_112@mockdata.org,UK,Organic Search
+c_349,2026-03-19 10:13:02,user_349@mail.com,IT,Organic Search
+c_050,2026-03-19 11:26:19,user_50@mockdata.org,DE,Blog Post
+c_114,2026-03-19 14:38:10,user_114@mockdata.org,US,Organic Search
+c_391,2026-03-19 18:13:53,user_391@example.com,DE,LinkedIn
+c_544,2026-03-19 18:50:44,user_544@example.com,FR,Blog Post
+c_915,2026-03-19 18:50:47,user_915@mockdata.org,IT,Organic Search
+c_215,2026-03-19 19:25:55,user_215@mail.com,US,Blog Post
+c_070,2026-03-19 20:58:59,user_70@example.com,CA,Direct
+c_642,2026-03-20 02:41:32,user_642@mail.com,CA,Blog Post
+c_813,2026-03-20 05:25:14,user_813@mockdata.org,IT,LinkedIn
+c_105,2026-03-20 21:51:21,user_105@test.com,CA,Google Ads
+c_069,2026-03-20 22:01:36,user_69@mail.com,DE,Google Ads
+c_904,2026-03-20 22:29:08,user_904@example.com,FR,LinkedIn
+c_059,2026-03-21 01:02:12,user_59@test.com,US,Organic Search
+c_152,2026-03-21 03:33:02,user_152@mockdata.org,FR,Direct
+c_320,2026-03-21 05:57:28,user_320@mockdata.org,US,LinkedIn
+c_225,2026-03-21 07:49:47,user_225@mail.com,IT,Blog Post
+c_744,2026-03-21 10:44:16,user_744@mail.com,CA,LinkedIn
+c_272,2026-03-21 14:38:19,user_272@test.com,US,Direct
+c_889,2026-03-21 14:54:24,user_889@example.com,CA,Blog Post
+c_356,2026-03-21 18:30:25,user_356@mockdata.org,IT,Direct
+c_061,2026-03-21 19:52:31,user_61@mail.com,IT,Organic Search
+c_566,2026-03-22 04:32:00,user_566@test.com,DE,Blog Post
+c_319,2026-03-22 13:30:07,user_319@example.com,DE,Blog Post
+c_444,2026-03-22 13:33:35,user_444@example.com,DE,Blog Post
+c_527,2026-03-22 16:56:15,user_527@mail.com,DE,Google Ads
+c_790,2026-03-22 16:58:41,user_790@mail.com,DE,Google Ads
+c_153,2026-03-22 17:38:54,user_153@example.com,CA,Direct
+c_782,2026-03-23 05:08:07,user_782@test.com,FR,Direct
+c_893,2026-03-23 12:29:01,user_893@mail.com,US,Google Ads
+c_783,2026-03-24 03:30:13,user_783@test.com,DE,Blog Post
+c_636,2026-03-24 08:34:47,user_636@mail.com,CA,Google Ads
+c_766,2026-03-24 19:01:31,user_766@mail.com,CA,Direct
+c_823,2026-03-25 01:41:21,user_823@test.com,IT,Google Ads
+c_028,2026-03-25 04:38:46,user_28@mail.com,UK,Google Ads
+c_221,2026-03-25 06:29:30,user_221@mockdata.org,FR,Blog Post
+c_828,2026-03-25 08:21:40,user_828@example.com,IT,Organic Search
+c_386,2026-03-25 08:36:35,user_386@mail.com,IT,Direct
+c_129,2026-03-25 11:25:26,user_129@mockdata.org,DE,Direct
+c_971,2026-03-25 18:06:44,user_971@test.com,FR,Direct
+c_711,2026-03-25 20:33:26,user_711@test.com,IT,Blog Post
+c_353,2026-03-25 20:41:25,user_353@example.com,IT,LinkedIn
+c_696,2026-03-26 06:09:55,user_696@mockdata.org,FR,Organic Search
+c_278,2026-03-26 06:27:13,user_278@example.com,IT,Organic Search
+c_183,2026-03-26 13:31:01,user_183@test.com,IT,Blog Post
+c_743,2026-03-27 03:20:53,user_743@mockdata.org,IT,Organic Search
+c_800,2026-03-27 06:12:50,user_800@example.com,CA,Google Ads
+c_838,2026-03-27 11:00:43,user_838@mockdata.org,IT,Google Ads
+c_213,2026-03-27 12:44:00,user_213@mockdata.org,CA,Organic Search
+c_565,2026-03-27 15:23:19,user_565@mockdata.org,DE,Google Ads
+c_619,2026-03-27 19:07:34,user_619@example.com,IT,Google Ads
+c_130,2026-03-27 20:36:50,user_130@test.com,FR,Direct
+c_402,2026-03-27 20:50:20,user_402@mockdata.org,UK,Blog Post
+c_279,2026-03-28 03:41:30,user_279@test.com,IT,LinkedIn
+c_621,2026-03-28 12:05:59,user_621@example.com,DE,Google Ads
+c_641,2026-03-28 16:33:58,user_641@example.com,CA,Organic Search
+c_747,2026-03-29 04:48:09,user_747@mail.com,FR,Direct
+c_799,2026-03-29 07:54:16,user_799@mockdata.org,UK,Organic Search
+c_658,2026-03-29 08:09:30,user_658@mockdata.org,US,Blog Post
+c_510,2026-03-29 09:01:59,user_510@mail.com,IT,Blog Post
+c_220,2026-03-29 11:32:58,user_220@mail.com,UK,Blog Post
+c_051,2026-03-29 16:04:40,user_51@example.com,CA,Google Ads
+c_499,2026-03-29 18:40:17,user_499@test.com,IT,Direct
+c_912,2026-03-29 19:24:36,user_912@test.com,US,Direct
+c_017,2026-03-30 01:02:42,user_17@mockdata.org,CA,LinkedIn
+c_037,2026-03-30 02:30:20,user_37@example.com,IT,LinkedIn
+c_595,2026-03-30 05:25:12,user_595@mail.com,CA,Blog Post
+c_814,2026-03-30 07:02:07,user_814@mail.com,UK,Blog Post
+c_165,2026-03-30 07:03:08,user_165@mockdata.org,UK,Direct
+c_309,2026-03-30 07:27:23,user_309@mockdata.org,IT,LinkedIn
+c_246,2026-03-30 07:38:32,user_246@example.com,UK,LinkedIn
+c_455,2026-03-30 18:18:13,user_455@example.com,US,Direct
+c_085,2026-03-30 18:49:15,user_85@mockdata.org,US,Organic Search
+c_999,2026-03-30 23:10:01,user_999@example.com,IT,Blog Post
+c_086,2026-03-30 23:45:55,user_86@example.com,US,Blog Post
+c_896,2026-03-31 00:34:09,user_896@example.com,FR,Organic Search
+c_691,2026-03-31 03:05:04,user_691@test.com,IT,Google Ads
+c_571,2026-03-31 06:11:14,user_571@mockdata.org,FR,LinkedIn
+c_385,2026-03-31 06:36:36,user_385@example.com,UK,Blog Post
+c_637,2026-03-31 10:40:09,user_637@mockdata.org,CA,LinkedIn
+c_066,2026-03-31 20:00:11,user_66@test.com,US,Direct
+c_906,2026-03-31 23:21:05,user_906@mockdata.org,US,Organic Search
+c_140,2026-04-01 04:57:33,user_140@example.com,FR,Google Ads
+c_883,2026-04-01 07:29:45,user_883@mockdata.org,UK,LinkedIn
+c_608,2026-04-01 08:53:52,user_608@mockdata.org,CA,Direct
+c_666,2026-04-01 12:53:04,user_666@mockdata.org,UK,LinkedIn
+c_596,2026-04-01 21:08:05,user_596@mockdata.org,CA,Organic Search
+c_226,2026-04-02 05:57:03,user_226@mockdata.org,US,Google Ads
+c_167,2026-04-02 07:47:19,user_167@example.com,IT,Blog Post
+c_614,2026-04-02 10:13:04,user_614@test.com,CA,Blog Post
+c_933,2026-04-02 14:12:30,user_933@mockdata.org,FR,Google Ads
+c_258,2026-04-02 16:42:13,user_258@test.com,DE,Blog Post
+c_653,2026-04-02 22:45:27,user_653@test.com,CA,LinkedIn
+c_553,2026-04-02 23:48:27,user_553@mail.com,CA,Blog Post
+c_135,2026-04-03 06:17:45,user_135@example.com,DE,Direct
+c_410,2026-04-03 08:35:30,user_410@test.com,US,Direct
+c_336,2026-04-03 11:28:01,user_336@mail.com,UK,Blog Post
+c_155,2026-04-03 14:53:12,user_155@example.com,UK,LinkedIn
+c_589,2026-04-03 17:04:16,user_589@test.com,UK,LinkedIn
+c_833,2026-04-03 18:14:40,user_833@example.com,CA,Direct
+c_943,2026-04-03 19:35:24,user_943@example.com,UK,Blog Post
+c_929,2026-04-04 03:29:29,user_929@mail.com,UK,Blog Post
+c_304,2026-04-04 13:34:25,user_304@mockdata.org,IT,LinkedIn
+c_756,2026-04-04 17:52:34,user_756@example.com,UK,Direct
+c_684,2026-04-04 19:53:40,user_684@mail.com,US,Organic Search
+c_374,2026-04-05 07:20:51,user_374@mail.com,DE,LinkedIn
+c_377,2026-04-05 11:52:22,user_377@mockdata.org,US,Google Ads
+c_785,2026-04-06 01:53:50,user_785@mockdata.org,CA,Google Ads
+c_181,2026-04-06 04:30:19,user_181@example.com,DE,LinkedIn
+c_940,2026-04-06 13:56:34,user_940@mockdata.org,CA,Direct
+c_190,2026-04-06 23:38:06,user_190@mockdata.org,CA,Direct
+c_137,2026-04-06 23:57:52,user_137@mail.com,CA,Google Ads
+c_818,2026-04-07 01:32:19,user_818@mockdata.org,UK,LinkedIn
+c_921,2026-04-07 08:06:59,user_921@example.com,DE,Direct
+c_537,2026-04-07 13:54:48,user_537@example.com,US,Direct
+c_381,2026-04-07 13:59:01,user_381@mail.com,CA,Google Ads
+c_285,2026-04-07 15:17:50,user_285@test.com,CA,Direct
+c_536,2026-04-07 18:05:08,user_536@mail.com,DE,LinkedIn
+c_925,2026-04-07 21:00:12,user_925@mail.com,FR,Direct
+c_495,2026-04-07 21:42:48,user_495@mail.com,FR,Organic Search
+c_038,2026-04-08 04:54:01,user_38@test.com,FR,Organic Search
+c_992,2026-04-08 11:57:44,user_992@test.com,US,Direct
+c_930,2026-04-08 13:19:20,user_930@mockdata.org,DE,LinkedIn
+c_077,2026-04-08 15:27:09,user_77@test.com,US,Blog Post
+c_412,2026-04-08 23:22:07,user_412@test.com,US,Google Ads
+c_095,2026-04-09 03:22:36,user_95@mail.com,UK,Organic Search
+c_897,2026-04-09 03:27:50,user_897@test.com,IT,Direct
+c_538,2026-04-09 03:32:30,user_538@mail.com,CA,Google Ads
+c_617,2026-04-09 03:44:25,user_617@test.com,FR,Blog Post
+c_856,2026-04-09 08:58:35,user_856@mockdata.org,IT,Blog Post
+c_407,2026-04-09 11:06:26,user_407@mail.com,DE,Blog Post
+c_123,2026-04-09 11:21:43,user_123@mockdata.org,IT,Direct
+c_557,2026-04-09 12:15:33,user_557@mail.com,IT,Blog Post
+c_359,2026-04-09 12:42:49,user_359@test.com,CA,Direct
+c_260,2026-04-09 16:34:27,user_260@test.com,US,LinkedIn
+c_257,2026-04-09 19:30:55,user_257@mockdata.org,DE,Direct
+c_551,2026-04-09 20:40:58,user_551@mail.com,FR,Organic Search
+c_872,2026-04-10 04:24:57,user_872@mockdata.org,US,Direct
+c_118,2026-04-10 07:24:15,user_118@example.com,DE,Blog Post
+c_622,2026-04-10 15:54:29,user_622@mail.com,DE,Blog Post
+c_442,2026-04-10 16:23:49,user_442@test.com,DE,Organic Search
+c_910,2026-04-10 16:53:43,user_910@example.com,IT,LinkedIn
+c_554,2026-04-11 02:25:51,user_554@test.com,UK,Blog Post
+c_882,2026-04-11 03:40:53,user_882@example.com,DE,Organic Search
+c_193,2026-04-11 07:39:26,user_193@test.com,US,Google Ads
+c_240,2026-04-11 18:32:48,user_240@mail.com,UK,Google Ads
+c_414,2026-04-12 12:10:56,user_414@test.com,UK,LinkedIn
+c_570,2026-04-13 00:54:03,user_570@mail.com,UK,Google Ads
+c_335,2026-04-13 03:44:10,user_335@example.com,IT,Organic Search
+c_775,2026-04-13 11:19:48,user_775@mockdata.org,FR,Direct
+c_452,2026-04-13 11:35:36,user_452@mail.com,US,LinkedIn
+c_697,2026-04-13 13:24:00,user_697@example.com,CA,Google Ads
+c_033,2026-04-13 17:51:05,user_33@mockdata.org,FR,Organic Search
+c_686,2026-04-13 19:15:54,user_686@mockdata.org,FR,LinkedIn
+c_656,2026-04-13 21:56:27,user_656@test.com,DE,Google Ads
+c_345,2026-04-14 00:34:26,user_345@mockdata.org,DE,Blog Post
+c_394,2026-04-14 00:47:51,user_394@test.com,UK,LinkedIn
+c_685,2026-04-14 08:17:23,user_685@mail.com,US,Organic Search
+c_020,2026-04-14 17:16:20,user_20@test.com,CA,Direct
+c_748,2026-04-14 18:19:57,user_748@mail.com,FR,Organic Search
+c_012,2026-04-15 03:00:14,user_12@example.com,DE,Organic Search
+c_633,2026-04-15 07:48:21,user_633@mail.com,FR,Google Ads
+c_264,2026-04-15 13:58:02,user_264@mail.com,UK,LinkedIn
+c_149,2026-04-15 21:17:30,user_149@example.com,CA,Google Ads
+c_276,2026-04-16 01:19:02,user_276@example.com,FR,Organic Search
+c_627,2026-04-16 02:00:16,user_627@example.com,US,Direct
+c_472,2026-04-16 10:42:23,user_472@mail.com,UK,Organic Search
+c_323,2026-04-16 17:23:41,user_323@mockdata.org,US,Direct
+c_230,2026-04-16 17:50:40,user_230@test.com,IT,Google Ads
+c_480,2026-04-16 22:05:41,user_480@mockdata.org,UK,Organic Search
+c_797,2026-04-17 02:11:26,user_797@test.com,DE,Organic Search
+c_047,2026-04-17 18:16:13,user_47@test.com,UK,Blog Post
+c_067,2026-04-17 20:42:06,user_67@example.com,US,Blog Post
+c_765,2026-04-18 04:05:18,user_765@test.com,UK,Blog Post
+c_265,2026-04-18 04:07:17,user_265@mail.com,DE,LinkedIn
+c_013,2026-04-18 04:41:44,user_13@mockdata.org,IT,Blog Post
+c_998,2026-04-18 04:45:32,user_998@mockdata.org,UK,Blog Post
+c_665,2026-04-18 04:52:33,user_665@mockdata.org,UK,Direct
+c_694,2026-04-18 07:46:31,user_694@mail.com,US,Organic Search
+c_878,2026-04-18 08:32:11,user_878@mail.com,CA,LinkedIn
+c_210,2026-04-18 10:50:22,user_210@mockdata.org,IT,Google Ads
+c_053,2026-04-18 13:27:41,user_53@test.com,FR,Google Ads
+c_408,2026-04-18 15:18:05,user_408@example.com,DE,Blog Post
+c_125,2026-04-18 15:44:57,user_125@test.com,CA,Direct
+c_649,2026-04-18 22:27:06,user_649@mail.com,US,LinkedIn
+c_720,2026-04-19 03:44:18,user_720@mail.com,US,Organic Search
+c_307,2026-04-19 05:15:54,user_307@mockdata.org,US,Direct
+c_569,2026-04-19 21:55:18,user_569@mockdata.org,IT,Direct
+c_099,2026-04-19 22:00:55,user_99@example.com,US,Organic Search
+c_355,2026-04-20 01:38:03,user_355@mockdata.org,IT,Organic Search
+c_583,2026-04-20 03:11:37,user_583@mockdata.org,CA,Organic Search
+c_655,2026-04-20 04:54:30,user_655@mail.com,DE,Blog Post
+c_670,2026-04-20 05:33:18,user_670@test.com,IT,Google Ads
+c_217,2026-04-20 07:01:21,user_217@mockdata.org,US,Google Ads
+c_172,2026-04-20 12:17:19,user_172@test.com,DE,LinkedIn
+c_162,2026-04-20 14:15:26,user_162@example.com,US,Direct
+c_082,2026-04-20 18:08:54,user_82@mockdata.org,UK,Google Ads
+c_283,2026-04-20 21:24:57,user_283@test.com,CA,Google Ads
+c_295,2026-04-20 21:25:13,user_295@example.com,FR,Direct
+c_873,2026-04-21 01:52:51,user_873@test.com,UK,Google Ads
+c_939,2026-04-21 05:26:49,user_939@test.com,FR,Google Ads
+c_852,2026-04-21 08:50:40,user_852@mail.com,UK,Blog Post
+c_080,2026-04-21 14:52:47,user_80@test.com,FR,Blog Post
+c_674,2026-04-21 15:24:41,user_674@test.com,DE,Blog Post
+c_804,2026-04-21 16:44:20,user_804@mockdata.org,FR,LinkedIn
+c_990,2026-04-22 05:02:31,user_990@test.com,DE,LinkedIn
+c_578,2026-04-22 08:35:44,user_578@mail.com,DE,LinkedIn
+c_920,2026-04-22 10:29:39,user_920@mail.com,IT,Direct
+c_492,2026-04-22 10:40:09,user_492@test.com,FR,LinkedIn
+c_212,2026-04-22 11:19:59,user_212@mockdata.org,DE,Direct
+c_293,2026-04-22 14:49:03,user_293@mockdata.org,IT,LinkedIn
+c_457,2026-04-22 15:54:55,user_457@test.com,IT,Google Ads
+c_058,2026-04-22 21:20:27,user_58@mail.com,CA,Direct
+c_239,2026-04-22 21:30:20,user_239@example.com,CA,Direct
+c_772,2026-04-23 02:38:10,user_772@example.com,FR,Google Ads
+c_811,2026-04-23 02:59:52,user_811@mockdata.org,IT,Direct
+c_965,2026-04-23 05:56:01,user_965@test.com,CA,Direct
+c_672,2026-04-23 11:00:05,user_672@mail.com,UK,Google Ads
+c_916,2026-04-24 01:49:32,user_916@mockdata.org,US,Organic Search
+c_420,2026-04-24 03:45:46,user_420@test.com,UK,LinkedIn
+c_539,2026-04-24 06:34:50,user_539@mockdata.org,US,Organic Search
+c_562,2026-04-24 07:24:56,user_562@mail.com,CA,Blog Post
+c_310,2026-04-24 12:14:50,user_310@mail.com,IT,LinkedIn
+c_241,2026-04-24 15:50:01,user_241@mail.com,IT,Direct
+c_948,2026-04-24 19:02:08,user_948@example.com,UK,LinkedIn
+c_946,2026-04-24 21:47:48,user_946@test.com,US,Blog Post
+c_263,2026-04-24 23:19:40,user_263@mail.com,CA,Direct
+c_1000,2026-04-25 02:18:10,user_1000@mail.com,US,Direct
+c_333,2026-04-25 08:15:12,user_333@mockdata.org,US,Google Ads
+c_007,2026-04-25 10:10:37,user_7@mockdata.org,US,Google Ads
+c_938,2026-04-25 20:52:51,user_938@example.com,IT,LinkedIn
+c_887,2026-04-25 21:28:46,user_887@mail.com,CA,Blog Post
+c_519,2026-04-25 22:01:38,user_519@test.com,CA,Blog Post
+c_741,2026-04-25 23:58:40,user_741@test.com,IT,Blog Post
+c_337,2026-04-26 06:41:03,user_337@example.com,DE,Blog Post
+c_996,2026-04-26 13:07:23,user_996@mockdata.org,UK,Organic Search
+c_708,2026-04-26 15:44:15,user_708@mail.com,UK,Organic Search
+c_456,2026-04-26 21:00:19,user_456@example.com,IT,Blog Post
+c_805,2026-04-26 21:33:30,user_805@test.com,UK,LinkedIn
+c_722,2026-04-26 21:52:12,user_722@mockdata.org,DE,Organic Search
+c_236,2026-04-27 03:03:10,user_236@example.com,DE,LinkedIn
+c_845,2026-04-27 16:51:31,user_845@mockdata.org,IT,Organic Search
+c_942,2026-04-27 19:57:06,user_942@test.com,US,Blog Post
+c_397,2026-04-27 23:22:57,user_397@test.com,IT,Organic Search
+c_237,2026-04-28 05:30:34,user_237@mockdata.org,US,Organic Search
+c_438,2026-04-28 09:56:09,user_438@test.com,UK,Organic Search
+c_490,2026-04-28 11:56:46,user_490@test.com,IT,Direct
+c_346,2026-04-28 13:29:36,user_346@mail.com,US,Organic Search
+c_048,2026-04-28 18:55:57,user_48@mail.com,CA,Blog Post
+c_847,2026-04-28 20:29:03,user_847@test.com,IT,Direct
+c_174,2026-04-28 21:58:42,user_174@example.com,CA,LinkedIn
+c_487,2026-04-28 23:29:41,user_487@mail.com,US,Google Ads
+c_040,2026-04-29 06:00:24,user_40@test.com,CA,LinkedIn
+c_776,2026-04-29 16:54:13,user_776@mail.com,FR,Organic Search
+c_090,2026-04-29 18:37:29,user_90@example.com,IT,Blog Post
+c_864,2026-04-29 21:30:35,user_864@example.com,UK,Google Ads
+c_363,2026-04-30 03:27:31,user_363@example.com,FR,LinkedIn
+c_518,2026-04-30 07:26:35,user_518@example.com,FR,Google Ads
+c_639,2026-04-30 09:44:59,user_639@example.com,CA,Google Ads
+c_127,2026-04-30 12:30:26,user_127@mockdata.org,DE,Blog Post
+c_584,2026-04-30 13:15:46,user_584@test.com,CA,Organic Search
+c_523,2026-05-01 00:35:38,user_523@example.com,DE,Blog Post
+c_219,2026-05-01 02:02:18,user_219@test.com,FR,Direct
+c_312,2026-05-01 07:17:51,user_312@mockdata.org,FR,Google Ads
+c_689,2026-05-01 08:23:17,user_689@mockdata.org,UK,LinkedIn
+c_733,2026-05-01 10:18:18,user_733@mail.com,UK,Direct
+c_161,2026-05-01 19:55:39,user_161@example.com,DE,Blog Post
+c_344,2026-05-02 05:31:49,user_344@mockdata.org,DE,Blog Post
+c_039,2026-05-02 10:06:36,user_39@mockdata.org,IT,Blog Post
+c_250,2026-05-02 10:36:57,user_250@mail.com,US,Google Ads
+c_827,2026-05-02 11:31:38,user_827@mockdata.org,IT,Google Ads
+c_821,2026-05-02 14:12:29,user_821@mail.com,US,Organic Search
+c_299,2026-05-02 20:10:00,user_299@example.com,UK,Direct
+c_871,2026-05-02 20:30:53,user_871@example.com,DE,Direct
+c_839,2026-05-02 23:03:54,user_839@test.com,DE,Blog Post
+c_563,2026-05-03 03:28:12,user_563@mail.com,CA,Google Ads
+c_216,2026-05-03 05:25:46,user_216@example.com,CA,Google Ads
+c_767,2026-05-03 06:53:44,user_767@test.com,CA,Direct
+c_136,2026-05-03 06:55:09,user_136@test.com,IT,Direct
+c_253,2026-05-03 08:06:59,user_253@test.com,IT,Google Ads
+c_468,2026-05-03 16:06:08,user_468@test.com,CA,Organic Search
+c_802,2026-05-03 20:55:29,user_802@mail.com,CA,Blog Post
+c_709,2026-05-04 03:13:37,user_709@mockdata.org,DE,Direct
+c_861,2026-05-04 04:01:31,user_861@example.com,UK,Direct
+c_816,2026-05-04 06:34:16,user_816@mockdata.org,US,Blog Post
+c_517,2026-05-04 07:34:49,user_517@mockdata.org,CA,LinkedIn
+c_182,2026-05-04 10:02:28,user_182@mail.com,IT,Google Ads
+c_211,2026-05-04 20:41:16,user_211@mail.com,US,Organic Search
+c_286,2026-05-04 20:51:03,user_286@mockdata.org,DE,LinkedIn
+c_850,2026-05-04 21:40:45,user_850@example.com,FR,Organic Search
+c_610,2026-05-05 00:36:37,user_610@mockdata.org,UK,Blog Post
+c_601,2026-05-05 00:40:40,user_601@mail.com,DE,Blog Post
+c_950,2026-05-05 03:11:43,user_950@mail.com,IT,LinkedIn
+c_001,2026-05-05 03:56:41,user_1@example.com,US,LinkedIn
+c_956,2026-05-05 04:58:12,user_956@example.com,DE,Google Ads
+c_439,2026-05-05 12:06:39,user_439@mail.com,UK,Blog Post
+c_679,2026-05-05 15:02:55,user_679@example.com,FR,Organic Search
+c_400,2026-05-05 20:33:32,user_400@mockdata.org,IT,LinkedIn
+c_650,2026-05-05 22:04:12,user_650@mail.com,FR,LinkedIn
+c_844,2026-05-06 04:08:58,user_844@example.com,CA,Blog Post
+c_406,2026-05-06 04:21:48,user_406@example.com,FR,Blog Post
+c_196,2026-05-06 10:07:32,user_196@mail.com,DE,Organic Search
+c_313,2026-05-06 18:16:43,user_313@example.com,IT,Direct
+c_763,2026-05-06 19:45:31,user_763@example.com,IT,Google Ads
+c_598,2026-05-06 21:13:43,user_598@mockdata.org,IT,Google Ads
+c_274,2026-05-07 04:27:29,user_274@example.com,UK,Blog Post
+c_824,2026-05-07 05:12:23,user_824@mockdata.org,CA,LinkedIn
+c_184,2026-05-07 07:21:04,user_184@mockdata.org,FR,Blog Post
+c_169,2026-05-07 13:23:48,user_169@example.com,US,Google Ads
+c_409,2026-05-07 13:46:57,user_409@test.com,UK,Blog Post
+c_789,2026-05-07 19:31:32,user_789@mail.com,DE,Direct
+c_675,2026-05-08 02:41:39,user_675@mockdata.org,UK,Direct
+c_347,2026-05-08 03:11:00,user_347@test.com,DE,Direct
+c_808,2026-05-08 08:41:53,user_808@test.com,IT,Google Ads
+c_581,2026-05-08 09:03:04,user_581@mockdata.org,IT,Direct
+c_421,2026-05-08 09:26:11,user_421@mail.com,CA,Blog Post
+c_138,2026-05-08 09:27:06,user_138@example.com,US,Direct
+c_750,2026-05-08 16:38:44,user_750@mockdata.org,CA,Blog Post
+c_700,2026-05-08 19:00:40,user_700@example.com,CA,LinkedIn
+c_846,2026-05-08 20:23:29,user_846@mockdata.org,CA,Blog Post
+c_060,2026-05-08 23:04:55,user_60@mail.com,UK,Direct
+c_712,2026-05-09 06:57:15,user_712@mail.com,US,Blog Post
+c_229,2026-05-09 09:20:10,user_229@test.com,DE,Organic Search
+c_073,2026-05-09 12:32:37,user_73@mail.com,CA,Google Ads
+c_122,2026-05-09 19:36:34,user_122@example.com,IT,LinkedIn
+c_126,2026-05-10 02:47:44,user_126@mail.com,IT,Google Ads
+c_287,2026-05-10 11:42:10,user_287@example.com,DE,LinkedIn
+c_104,2026-05-10 12:08:05,user_104@example.com,UK,Blog Post
+c_142,2026-05-10 15:08:15,user_142@mockdata.org,DE,Blog Post
+c_383,2026-05-10 17:19:48,user_383@mockdata.org,US,Direct
+c_189,2026-05-10 17:59:02,user_189@mail.com,UK,Organic Search
+c_083,2026-05-11 01:08:57,user_83@mockdata.org,CA,LinkedIn
+c_585,2026-05-11 01:39:09,user_585@test.com,IT,Google Ads
+c_133,2026-05-11 15:27:18,user_133@mockdata.org,CA,Google Ads
+c_062,2026-05-11 18:06:22,user_62@example.com,US,Direct
+c_600,2026-05-11 22:56:13,user_600@test.com,CA,Blog Post
+c_572,2026-05-12 05:46:33,user_572@mockdata.org,FR,Direct
+c_003,2026-05-12 09:38:53,user_3@example.com,FR,Direct
+c_704,2026-05-12 11:12:41,user_704@mockdata.org,DE,Google Ads
+c_176,2026-05-12 12:40:01,user_176@mail.com,DE,Google Ads
+c_288,2026-05-12 13:53:44,user_288@test.com,US,Direct
+c_298,2026-05-12 14:36:40,user_298@test.com,IT,Organic Search
+c_418,2026-05-12 17:28:36,user_418@mail.com,UK,LinkedIn
+c_416,2026-05-12 19:53:33,user_416@example.com,IT,LinkedIn
+c_034,2026-05-13 02:21:01,user_34@example.com,IT,Blog Post
+c_031,2026-05-13 03:16:20,user_31@mail.com,FR,Organic Search
+c_853,2026-05-13 14:44:26,user_853@test.com,DE,Organic Search
+c_995,2026-05-13 15:35:43,user_995@mail.com,CA,Google Ads
+c_178,2026-05-13 20:52:41,user_178@example.com,FR,Organic Search
+c_467,2026-05-13 22:51:07,user_467@mail.com,IT,Direct
+c_525,2026-05-14 00:17:19,user_525@mail.com,UK,Direct
+c_609,2026-05-14 05:20:05,user_609@mockdata.org,IT,Organic Search
+c_341,2026-05-14 05:26:45,user_341@example.com,DE,Direct
+c_840,2026-05-14 07:37:48,user_840@mail.com,CA,Organic Search
+c_234,2026-05-14 17:28:19,user_234@mockdata.org,IT,Direct
+c_705,2026-05-14 20:25:11,user_705@example.com,FR,LinkedIn
+c_389,2026-05-14 21:48:56,user_389@mockdata.org,US,Direct
+c_290,2026-05-15 01:05:38,user_290@mockdata.org,DE,LinkedIn
+c_755,2026-05-15 01:40:15,user_755@test.com,UK,Organic Search
+c_100,2026-05-15 04:23:05,user_100@test.com,FR,Organic Search
+c_198,2026-05-15 07:57:42,user_198@test.com,UK,Blog Post
+c_477,2026-05-15 09:16:22,user_477@mail.com,UK,Blog Post
+c_698,2026-05-15 10:17:40,user_698@mail.com,UK,Organic Search
+c_607,2026-05-15 12:32:08,user_607@test.com,US,Organic Search
+c_784,2026-05-15 15:37:53,user_784@test.com,FR,Google Ads
+c_736,2026-05-16 00:17:49,user_736@test.com,DE,LinkedIn
+c_651,2026-05-16 05:01:56,user_651@mail.com,DE,Google Ads
+c_008,2026-05-16 13:33:55,user_8@mail.com,UK,LinkedIn
+c_252,2026-05-16 14:04:51,user_252@mail.com,US,Organic Search
+c_314,2026-05-17 03:15:23,user_314@mockdata.org,IT,Direct
+c_866,2026-05-17 05:13:30,user_866@example.com,CA,Direct
+c_019,2026-05-17 06:43:10,user_19@example.com,FR,Google Ads
+c_954,2026-05-17 07:35:47,user_954@mail.com,FR,Organic Search
+c_695,2026-05-17 11:29:44,user_695@test.com,US,Direct
+c_575,2026-05-17 21:04:35,user_575@test.com,IT,Direct
+c_568,2026-05-18 01:09:03,user_568@test.com,FR,Google Ads
+c_151,2026-05-18 04:09:06,user_151@test.com,US,Direct
+c_654,2026-05-18 09:32:48,user_654@test.com,DE,Organic Search
+c_413,2026-05-18 09:45:22,user_413@mail.com,DE,Blog Post
+c_422,2026-05-18 15:24:21,user_422@example.com,UK,Blog Post
+c_959,2026-05-18 16:01:12,user_959@mockdata.org,DE,Organic Search
+c_515,2026-05-18 17:43:38,user_515@test.com,UK,Blog Post
+c_501,2026-05-18 18:41:54,user_501@example.com,FR,Blog Post
+c_762,2026-05-19 00:28:12,user_762@example.com,US,LinkedIn
+c_894,2026-05-19 04:32:27,user_894@mockdata.org,US,Organic Search
+c_715,2026-05-19 04:39:21,user_715@test.com,IT,Direct
+c_746,2026-05-19 21:14:35,user_746@mail.com,DE,Organic Search
+c_006,2026-05-20 00:53:35,user_6@mail.com,CA,Direct
+c_469,2026-05-20 01:00:42,user_469@mail.com,US,LinkedIn
+c_620,2026-05-20 05:04:47,user_620@mail.com,US,Blog Post
+c_587,2026-05-20 07:07:51,user_587@mail.com,US,Google Ads
+c_143,2026-05-20 16:03:34,user_143@mail.com,FR,Direct
+c_194,2026-05-20 19:47:28,user_194@mail.com,DE,Blog Post
+c_678,2026-05-20 20:54:15,user_678@mail.com,CA,Blog Post
+c_520,2026-05-20 22:23:31,user_520@mockdata.org,FR,Organic Search
+c_730,2026-05-20 23:38:05,user_730@mail.com,FR,Blog Post
+c_357,2026-05-21 00:23:10,user_357@example.com,UK,Blog Post
+c_370,2026-05-21 02:52:51,user_370@mockdata.org,FR,Blog Post
+c_577,2026-05-21 03:11:59,user_577@mockdata.org,UK,Organic Search
+c_974,2026-05-21 04:56:29,user_974@mockdata.org,IT,LinkedIn
+c_668,2026-05-21 06:41:28,user_668@mail.com,UK,Google Ads
+c_624,2026-05-21 10:43:46,user_624@example.com,DE,LinkedIn
+c_676,2026-05-21 12:01:27,user_676@mail.com,DE,Google Ads
+c_419,2026-05-21 12:50:35,user_419@test.com,UK,Organic Search
+c_160,2026-05-21 14:55:47,user_160@test.com,DE,Google Ads
+c_659,2026-05-21 16:48:34,user_659@test.com,US,LinkedIn
+c_724,2026-05-21 18:01:01,user_724@test.com,FR,Blog Post
+c_395,2026-05-22 05:49:56,user_395@test.com,CA,Organic Search
+c_634,2026-05-22 08:03:53,user_634@test.com,US,Organic Search
+c_063,2026-05-22 09:43:16,user_63@mockdata.org,US,Google Ads
+c_862,2026-05-22 17:51:09,user_862@test.com,US,Google Ads
+c_842,2026-05-22 18:05:21,user_842@mail.com,UK,Direct
+c_186,2026-05-22 22:49:44,user_186@mockdata.org,UK,Google Ads
+c_969,2026-05-23 03:17:51,user_969@example.com,FR,Organic Search
+c_677,2026-05-23 06:57:58,user_677@mockdata.org,CA,Google Ads
+c_529,2026-05-23 13:37:07,user_529@mockdata.org,DE,Google Ads
+c_738,2026-05-23 16:45:45,user_738@mail.com,FR,Google Ads
+c_648,2026-05-23 18:20:12,user_648@test.com,IT,Direct
+c_075,2026-05-23 20:47:01,user_75@example.com,IT,LinkedIn
+c_131,2026-05-23 21:49:44,user_131@test.com,IT,Organic Search
+c_798,2026-05-23 21:57:21,user_798@test.com,UK,Organic Search
+c_107,2026-05-24 00:38:21,user_107@mockdata.org,DE,Google Ads
+c_801,2026-05-24 05:31:32,user_801@mockdata.org,IT,Blog Post
+c_205,2026-05-24 10:08:49,user_205@mail.com,UK,Blog Post
+c_429,2026-05-24 10:19:49,user_429@example.com,IT,LinkedIn
+c_556,2026-05-24 13:28:40,user_556@mockdata.org,FR,LinkedIn
+c_886,2026-05-24 14:40:26,user_886@test.com,DE,LinkedIn
+c_764,2026-05-24 18:55:52,user_764@test.com,FR,Google Ads
+c_367,2026-05-24 21:09:57,user_367@example.com,US,Blog Post
+c_384,2026-05-25 02:09:47,user_384@example.com,DE,Organic Search
+c_794,2026-05-25 04:23:09,user_794@mail.com,FR,Blog Post
+c_204,2026-05-25 06:04:36,user_204@test.com,CA,Google Ads
+c_268,2026-05-25 14:34:39,user_268@mail.com,IT,Direct
+c_027,2026-05-25 15:54:01,user_27@mockdata.org,IT,Blog Post
+c_392,2026-05-25 19:42:08,user_392@mockdata.org,CA,LinkedIn
+c_463,2026-05-26 02:44:51,user_463@example.com,UK,Organic Search
+c_157,2026-05-26 03:40:31,user_157@test.com,DE,Google Ads
+c_188,2026-05-26 17:28:22,user_188@mail.com,FR,Blog Post
+c_035,2026-05-26 19:20:39,user_35@mockdata.org,IT,LinkedIn
+c_145,2026-05-26 23:32:01,user_145@test.com,IT,LinkedIn
+c_702,2026-05-27 01:45:35,user_702@mail.com,US,LinkedIn
+c_473,2026-05-27 06:35:24,user_473@test.com,UK,LinkedIn
+c_156,2026-05-27 07:26:54,user_156@mail.com,DE,Blog Post
+c_306,2026-05-27 10:36:02,user_306@test.com,IT,Direct
+c_372,2026-05-27 11:55:33,user_372@example.com,IT,Organic Search
+c_550,2026-05-27 14:23:33,user_550@test.com,CA,Blog Post
+c_049,2026-05-27 15:47:27,user_49@test.com,IT,LinkedIn
+c_988,2026-05-27 21:20:40,user_988@test.com,FR,Organic Search
+c_195,2026-05-28 05:18:12,user_195@test.com,IT,Direct
+c_449,2026-05-28 08:27:21,user_449@mail.com,DE,Blog Post
+c_891,2026-05-28 08:51:58,user_891@mail.com,IT,LinkedIn
+c_399,2026-05-28 13:17:03,user_399@mail.com,IT,Blog Post
+c_206,2026-05-28 14:49:32,user_206@mockdata.org,US,Google Ads
+c_888,2026-05-28 16:06:14,user_888@test.com,CA,Organic Search
+c_530,2026-05-28 16:57:20,user_530@mockdata.org,FR,Blog Post
+c_718,2026-05-28 20:07:54,user_718@mockdata.org,US,Google Ads
+c_661,2026-05-28 21:45:45,user_661@test.com,DE,Google Ads
+c_041,2026-05-29 01:33:28,user_41@test.com,FR,Blog Post
+c_441,2026-05-29 04:22:55,user_441@test.com,UK,Direct
+c_543,2026-05-29 07:49:49,user_543@mail.com,UK,Organic Search
+c_547,2026-05-29 10:22:52,user_547@mockdata.org,FR,Blog Post
+c_146,2026-05-29 16:57:01,user_146@mail.com,IT,Google Ads
+c_046,2026-05-29 17:02:49,user_46@test.com,CA,Direct
+c_430,2026-05-29 19:15:08,user_430@test.com,FR,Direct
+c_173,2026-05-29 22:00:15,user_173@mockdata.org,CA,Blog Post
+c_857,2026-05-29 22:59:30,user_857@mail.com,DE,Direct
+c_629,2026-05-30 07:40:10,user_629@test.com,IT,Direct
+c_508,2026-05-30 08:33:59,user_508@mail.com,FR,Organic Search
+c_905,2026-05-30 14:01:46,user_905@test.com,DE,LinkedIn
+c_869,2026-05-30 19:07:32,user_869@example.com,UK,Direct
+c_465,2026-05-30 19:27:25,user_465@mockdata.org,CA,Organic Search
+c_261,2026-05-31 00:55:37,user_261@mail.com,UK,Blog Post
+c_579,2026-05-31 02:44:27,user_579@test.com,UK,Organic Search
+c_113,2026-05-31 03:57:48,user_113@mockdata.org,UK,Blog Post
+c_836,2026-05-31 04:35:13,user_836@test.com,IT,Google Ads
+c_329,2026-05-31 08:49:08,user_329@test.com,FR,Organic Search
+c_185,2026-05-31 10:05:26,user_185@mail.com,DE,Direct
+c_567,2026-05-31 11:37:57,user_567@mail.com,IT,Organic Search

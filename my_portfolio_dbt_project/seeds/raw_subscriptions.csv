@@ -1,8 +1,0 @@
-subscription_id,customer_id,plan_name,monthly_amount,status,start_date,end_date
-sub_101,c_001,Basic,29.00,upgraded,2025-01-10,2025-03-10
-sub_102,c_002,Pro,99.00,active,2025-01-15,
-sub_103,c_003,Basic,29.00,cancelled,2025-02-01,2025-04-01
-sub_104,c_004,Enterprise,499.00,active,2025-02-18,
-sub_105,c_001,Pro,99.00,active,2025-03-10,
-sub_106,c_005,Basic,29.00,active,2025-03-05,
-sub_107,c_006,Pro,99.00,active,2025-03-22,

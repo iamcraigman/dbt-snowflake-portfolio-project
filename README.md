@@ -127,4 +127,21 @@ Customer Lifecycle States: Tracking healthy, canceled, and churned accounts over
 Funnel Attribution: Correlating marketing acquisition channels directly against recurring billing values.
 
 ### 📊 Business Intelligence Dashboard
-![BI Dashboard](Images/bi_dashboard.png)  
+![BI Dashboard](Images/bi_dashboard.png) 
+
+---
+
+## 🛡️ Data Governance, Privacy, & Compliance Oversight
+
+To simulate a highly regulated corporate environment (e.g., GDPR/CCPA compliance), this platform implements three foundational governance pillars:
+
+### 1. Automated Quality Gateways & Schema Contracts
+Data contracts are programmatically enforced at the **Intermediate Layer** using strict schema constraints (`contract: enforced: true`). If upstream source systems introduce data drift or unexpected column types, dbt blocks the compilation before dirty assets propagate to the production warehouse.
+
+### 2. Custom Data Quality Controls (Jinja Macro)
+A custom validation engine runs a regex evaluation macro on sensitive customer profile strings. Downstream models utilize an assertion test (`accepted_values: [true]`) to dynamically flag and isolate non-compliant records for security triage.
+
+### 3. Model Auditability & Reproducibility (SCD Type 2)
+To provide absolute historical lineage for downstream financial audits or ML model training tracking, the platform utilizes **dbt Snapshots**. This builds an immutable time-gated log of subscription lifecycle modifications, capturing exact historical state records over time:
+* **Tracking Strategy:** `check` (Monitoring delta changes on `status` and `monthly_amount`)
+* **Lineage Tracking:** Automatically injects system temporal fields (`dbt_valid_from` to `dbt_valid_to`) to preserve historical point-in-time contexts perfectly.

@@ -1,7 +1,0 @@
-customer_id,signup_at,email,country,marketing_channel
-c_001,2025-01-10 08:30:00,alpha@example.com,US,Organic Search
-c_002,2025-01-15 14:22:00,beta@example.com,CA,Google Ads
-c_003,2025-02-01 11:05:00,gamma@example.com,UK,LinkedIn
-c_004,2025-02-18 09:12:00,delta@example.com,US,Direct
-c_005,2025-03-05 16:45:00,epsilon@example.com,DE,Blog Post
-c_006,2025-03-22 13:10:00,zeta@example.com,US,Google Ads

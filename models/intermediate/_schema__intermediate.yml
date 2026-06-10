@@ -1,0 +1,121 @@
+version: 2
+
+models:
+  - name: int_customer_subscription_states
+    description: "Captures the most recent subscription state and normalized lifecycle status for each customer."
+    columns:
+      - name: customer_id
+        data_type: string
+        description: "Unique identifier for the customer."
+        tests:
+          - unique
+          - not_null
+          - relationships:
+              to: ref('int_customers_cleaned')
+              field: customer_id
+
+      - name: current_plan
+        data_type: string
+        description: "The name of the customer's most recent subscription plan."
+
+      - name: current_mrr
+        data_type: numeric
+        description: "The Monthly Recurring Revenue (MRR) amount associated with the current plan."
+
+      - name: current_status
+        data_type: string
+        description: "The raw status of the current subscription."
+
+      - name: normalized_customer_lifecycle_state
+        data_type: string
+        description: "Cleaned and mapped lifecycle state."
+
+  - name: int_customers_cleaned
+    description: "Governance Gateway: Validates customer profiles and flags malformed data inputs."
+    config:
+      contract:
+        enforced: true
+    columns:
+      - name: customer_id
+        data_type: string
+        description: "System primary key."
+        tests:
+          - unique
+          - not_null
+
+      - name: customer_email
+        data_type: string
+        description: "PII Field. System email address tracking."
+
+      - name: country_code
+        data_type: string
+        description: "Two-letter ISO country code."
+
+      - name: signed_up_at
+        data_type: timestamp
+        description: "Timestamp of when the customer signed up."
+
+      - name: acquisition_channel_id
+        data_type: string
+        description: "Foreign key linking to the marketing channel table."
+        tests:
+          - relationships:
+              to: ref('raw_marketing_channels')
+              field: channel_id
+
+      - name: is_valid_email_format
+        data_type: boolean
+        description: "Data Quality Flag: Output of custom validation regex macro."
+        tests:
+          - not_null
+
+  - name: int_subscriptions_enriched
+    description: "Enriched granular history of subscription records backfilled with proper plan and pricing historical IDs."
+    columns:
+      - name: subscription_id
+        data_type: string
+        description: "Primary key. Unique identifier for the specific subscription record state."
+        tests:
+          - unique
+          - not_null
+
+      - name: customer_id
+        data_type: string
+        description: "Foreign key mapping back to the customer profile."
+        tests:
+          - not_null
+          - relationships:
+              to: ref('int_customers_cleaned')
+              field: customer_id
+
+      - name: plan_id
+        data_type: string
+        description: "Foreign key mapping to the internal plan definition table."
+        tests:
+          - relationships:
+              to: ref('raw_plans')
+              field: plan_id
+
+      - name: price_id
+        data_type: string
+        description: "Foreign key mapping to the historical plan pricing table."
+        tests:
+          - relationships:
+              to: ref('raw_plan_pricing_history')
+              field: price_id
+
+      - name: subscription_status
+        data_type: string
+        description: "The status of the subscription during this historical window."
+
+      - name: valid_from_date
+        data_type: date
+        description: "The start date of this specific subscription state configuration."
+
+      - name: valid_to_date
+        data_type: date
+        description: "The end date of this specific subscription state configuration."
+
+      - name: clear_mrr_amount
+        data_type: numeric
+        description: "The resolved MRR amount, coalescing direct subscription logs and historical pricing maps."
