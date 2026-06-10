@@ -2,7 +2,8 @@
   config(
     materialized='incremental',
     unique_key='customer_id',
-    incremental_strategy='merge'
+    incremental_strategy='merge',
+    on_schema_change='sync_all_columns'
   )
 }}
 
@@ -27,7 +28,8 @@ final as (
         c.signed_up_at,
         coalesce(p.plan_name, 'unsubscribed') as current_plan,
         c.current_status,
-        c.current_mrr
+        c.current_mrr,
+        c.trial_conversion_cohort
     from customers c
 	left join plans p
 		on c.current_plan_id = p.plan_id

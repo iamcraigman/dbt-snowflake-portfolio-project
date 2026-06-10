@@ -6,6 +6,10 @@ int_subs as (
     select * from {{ ref('int_subscriptions_enriched') }}
 ),
 
+conversion_cohorts as (
+    select * from {{ ref('int_customer_conversions') }}
+),
+
 latest_sub as (
     select
         customer_id,
@@ -29,10 +33,13 @@ final as (
         c.signed_up_at,
         coalesce(ls.plan_id, 'unsubscribed') as current_plan_id,
         coalesce(ls.subscription_status, 'inactive') as current_status,
-        coalesce(ls.clear_mrr_amount, 0.00) as current_mrr
+        coalesce(ls.clear_mrr_amount, 0.00) as current_mrr,
+        coalesce(ch.trial_conversion_cohort, 'Unknown') as trial_conversion_cohort
     from int_customers c
     left join latest_sub ls 
         on c.customer_id = ls.customer_id and ls.rn = 1
+    left join conversion_cohorts ch
+        on c.customer_id = ch.customer_id
 )
 
 select * from final
