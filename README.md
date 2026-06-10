@@ -13,7 +13,7 @@ This warehouse is built using a modular, multi-layer architecture following dbt 
 `Raw (Seeds) ──> Staging (stg_) ──> Intermediate (int_) ──> Marts (dim_ / fct_)`
 
 ### Pipeline Lineage Graph
-![dbt Lineage Graph](images/prod_lineage.png)  
+![dbt Lineage Graph](./images/prod_lineage.png)  
 *(To view dynamically, run `dbt docs generate` and `dbt docs serve` locally).*
 
 ### Data Layer Breakdown:
@@ -127,7 +127,7 @@ Customer Lifecycle States: Tracking healthy, canceled, and churned accounts over
 Funnel Attribution: Correlating marketing acquisition channels directly against recurring billing values.
 
 ### 📊 Business Intelligence Dashboard
-![BI Dashboard](images/bi_dashboard.png) 
+![BI Dashboard](./images/bi_dashboard.png) 
 
 ---
 
